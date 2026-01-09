@@ -1,0 +1,86 @@
+{
+  "type_description_msg": {
+    "type_description": {
+      "type_name": "rosmsg/msg/RosCanMotorSta",
+      "fields": [
+        {
+          "name": "motor",
+          "type": {
+            "type_id": 49,
+            "capacity": 2,
+            "string_capacity": 0,
+            "nested_type_name": "rosmsg/msg/MotorOutputMsg"
+          },
+          "default_value": ""
+        }
+      ]
+    },
+    "referenced_type_descriptions": [
+      {
+        "type_name": "rosmsg/msg/MotorOutputMsg",
+        "fields": [
+          {
+            "name": "curr_pos",
+            "type": {
+              "type_id": 10,
+              "capacity": 0,
+              "string_capacity": 0,
+              "nested_type_name": ""
+            },
+            "default_value": ""
+          },
+          {
+            "name": "curr_torq",
+            "type": {
+              "type_id": 10,
+              "capacity": 0,
+              "string_capacity": 0,
+              "nested_type_name": ""
+            },
+            "default_value": ""
+          },
+          {
+            "name": "curr_speed",
+            "type": {
+              "type_id": 10,
+              "capacity": 0,
+              "string_capacity": 0,
+              "nested_type_name": ""
+            },
+            "default_value": ""
+          },
+          {
+            "name": "curr_kp",
+            "type": {
+              "type_id": 10,
+              "capacity": 0,
+              "string_capacity": 0,
+              "nested_type_name": ""
+            },
+            "default_value": ""
+          },
+          {
+            "name": "curr_kd",
+            "type": {
+              "type_id": 10,
+              "capacity": 0,
+              "string_capacity": 0,
+              "nested_type_name": ""
+            },
+            "default_value": ""
+          }
+        ]
+      }
+    ]
+  },
+  "type_hashes": [
+    {
+      "type_name": "rosmsg/msg/RosCanMotorSta",
+      "hash_string": "RIHS01_3263a07e1251d783c921170d259f3c611e9bde24e94a9d942f929a890ee3ebb9"
+    },
+    {
+      "type_name": "rosmsg/msg/MotorOutputMsg",
+      "hash_string": "RIHS01_92668cd541f037555cd41040c6942dd9f64f90372ccc55ee67165d1a66184c73"
+    }
+  ]
+}

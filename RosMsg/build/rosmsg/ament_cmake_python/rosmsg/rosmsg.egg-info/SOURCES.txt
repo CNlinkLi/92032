@@ -1,0 +1,12 @@
+setup.py
+rosmsg/__init__.py
+rosmsg.egg-info/PKG-INFO
+rosmsg.egg-info/SOURCES.txt
+rosmsg.egg-info/dependency_links.txt
+rosmsg.egg-info/top_level.txt
+rosmsg/msg/__init__.py
+rosmsg/msg/_motor_input_msg.py
+rosmsg/msg/_motor_output_msg.py
+rosmsg/msg/_ros_can_imu_msg.py
+rosmsg/msg/_ros_can_motor_sta.py
+rosmsg/msg/_ros_can_motor_tgt.py

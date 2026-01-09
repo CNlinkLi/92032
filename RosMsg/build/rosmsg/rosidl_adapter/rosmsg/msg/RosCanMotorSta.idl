@@ -1,0 +1,15 @@
+// generated from rosidl_adapter/resource/msg.idl.em
+// with input from rosmsg/msg/RosCanMotorSta.msg
+// generated code does not contain a copyright notice
+
+#include "rosmsg/msg/MotorOutputMsg.idl"
+
+module rosmsg {
+  module msg {
+    typedef rosmsg::msg::MotorOutputMsg rosmsg__msg__MotorOutputMsg;
+    typedef rosmsg__msg__MotorOutputMsg rosmsg__msg__MotorOutputMsg__2[2];
+    struct RosCanMotorSta {
+      rosmsg__msg__MotorOutputMsg__2 motor;
+    };
+  };
+};

@@ -1,0 +1,11 @@
+{
+  "package_name": "rosmsg",
+  "output_dir": "/home/piusr/92032_CAN/RosMsg/build/rosmsg/rosidl_generator_type_description/rosmsg",
+  "idl_tuples": [
+    "/home/piusr/92032_CAN/RosMsg/build/rosmsg/rosidl_adapter/rosmsg:msg/RosCanMotorSta.idl",
+    "/home/piusr/92032_CAN/RosMsg/build/rosmsg/rosidl_adapter/rosmsg:msg/RosCanMotorTgt.idl",
+    "/home/piusr/92032_CAN/RosMsg/build/rosmsg/rosidl_adapter/rosmsg:msg/RosCanImuMsg.idl",
+    "/home/piusr/92032_CAN/RosMsg/build/rosmsg/rosidl_adapter/rosmsg:msg/MotorInputMsg.idl",
+    "/home/piusr/92032_CAN/RosMsg/build/rosmsg/rosidl_adapter/rosmsg:msg/MotorOutputMsg.idl"
+  ]
+}

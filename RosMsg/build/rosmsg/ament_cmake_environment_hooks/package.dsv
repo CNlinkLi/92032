@@ -1,0 +1,4 @@
+source;share/rosmsg/local_setup.bash
+source;share/rosmsg/local_setup.dsv
+source;share/rosmsg/local_setup.sh
+source;share/rosmsg/local_setup.zsh

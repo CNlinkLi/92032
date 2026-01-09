@@ -1,0 +1,45 @@
+{
+  "package_name": "rosmsg",
+  "output_dir": "/home/piusr/92032_CAN/RosMsg/build/rosmsg/rosidl_generator_cpp/rosmsg",
+  "template_dir": "/opt/ros/jazzy/share/rosidl_generator_cpp/cmake/../resource",
+  "idl_tuples": [
+    "/home/piusr/92032_CAN/RosMsg/build/rosmsg/rosidl_adapter/rosmsg:msg/RosCanMotorSta.idl",
+    "/home/piusr/92032_CAN/RosMsg/build/rosmsg/rosidl_adapter/rosmsg:msg/RosCanMotorTgt.idl",
+    "/home/piusr/92032_CAN/RosMsg/build/rosmsg/rosidl_adapter/rosmsg:msg/RosCanImuMsg.idl",
+    "/home/piusr/92032_CAN/RosMsg/build/rosmsg/rosidl_adapter/rosmsg:msg/MotorInputMsg.idl",
+    "/home/piusr/92032_CAN/RosMsg/build/rosmsg/rosidl_adapter/rosmsg:msg/MotorOutputMsg.idl"
+  ],
+  "target_dependencies": [
+    "/opt/ros/jazzy/share/rosidl_generator_cpp/cmake/../../../lib/rosidl_generator_cpp/rosidl_generator_cpp",
+    "/opt/ros/jazzy/share/rosidl_generator_cpp/cmake/../../../lib/python3.12/site-packages/rosidl_generator_cpp/__init__.py",
+    "/opt/ros/jazzy/share/rosidl_generator_cpp/cmake/../resource/action__builder.hpp.em",
+    "/opt/ros/jazzy/share/rosidl_generator_cpp/cmake/../resource/action__struct.hpp.em",
+    "/opt/ros/jazzy/share/rosidl_generator_cpp/cmake/../resource/action__traits.hpp.em",
+    "/opt/ros/jazzy/share/rosidl_generator_cpp/cmake/../resource/action__type_support.hpp.em",
+    "/opt/ros/jazzy/share/rosidl_generator_cpp/cmake/../resource/idl.hpp.em",
+    "/opt/ros/jazzy/share/rosidl_generator_cpp/cmake/../resource/idl__builder.hpp.em",
+    "/opt/ros/jazzy/share/rosidl_generator_cpp/cmake/../resource/idl__struct.hpp.em",
+    "/opt/ros/jazzy/share/rosidl_generator_cpp/cmake/../resource/idl__traits.hpp.em",
+    "/opt/ros/jazzy/share/rosidl_generator_cpp/cmake/../resource/idl__type_support.hpp.em",
+    "/opt/ros/jazzy/share/rosidl_generator_cpp/cmake/../resource/msg__builder.hpp.em",
+    "/opt/ros/jazzy/share/rosidl_generator_cpp/cmake/../resource/msg__struct.hpp.em",
+    "/opt/ros/jazzy/share/rosidl_generator_cpp/cmake/../resource/msg__traits.hpp.em",
+    "/opt/ros/jazzy/share/rosidl_generator_cpp/cmake/../resource/msg__type_support.hpp.em",
+    "/opt/ros/jazzy/share/rosidl_generator_cpp/cmake/../resource/srv__builder.hpp.em",
+    "/opt/ros/jazzy/share/rosidl_generator_cpp/cmake/../resource/srv__struct.hpp.em",
+    "/opt/ros/jazzy/share/rosidl_generator_cpp/cmake/../resource/srv__traits.hpp.em",
+    "/opt/ros/jazzy/share/rosidl_generator_cpp/cmake/../resource/srv__type_support.hpp.em",
+    "/home/piusr/92032_CAN/RosMsg/build/rosmsg/rosidl_adapter/rosmsg/msg/RosCanMotorSta.idl",
+    "/home/piusr/92032_CAN/RosMsg/build/rosmsg/rosidl_adapter/rosmsg/msg/RosCanMotorTgt.idl",
+    "/home/piusr/92032_CAN/RosMsg/build/rosmsg/rosidl_adapter/rosmsg/msg/RosCanImuMsg.idl",
+    "/home/piusr/92032_CAN/RosMsg/build/rosmsg/rosidl_adapter/rosmsg/msg/MotorInputMsg.idl",
+    "/home/piusr/92032_CAN/RosMsg/build/rosmsg/rosidl_adapter/rosmsg/msg/MotorOutputMsg.idl"
+  ],
+  "type_description_tuples": [
+    "msg/RosCanMotorSta.idl:/home/piusr/92032_CAN/RosMsg/build/rosmsg/rosidl_generator_type_description/rosmsg/msg/RosCanMotorSta.json",
+    "msg/RosCanMotorTgt.idl:/home/piusr/92032_CAN/RosMsg/build/rosmsg/rosidl_generator_type_description/rosmsg/msg/RosCanMotorTgt.json",
+    "msg/RosCanImuMsg.idl:/home/piusr/92032_CAN/RosMsg/build/rosmsg/rosidl_generator_type_description/rosmsg/msg/RosCanImuMsg.json",
+    "msg/MotorInputMsg.idl:/home/piusr/92032_CAN/RosMsg/build/rosmsg/rosidl_generator_type_description/rosmsg/msg/MotorInputMsg.json",
+    "msg/MotorOutputMsg.idl:/home/piusr/92032_CAN/RosMsg/build/rosmsg/rosidl_generator_type_description/rosmsg/msg/MotorOutputMsg.json"
+  ]
+}

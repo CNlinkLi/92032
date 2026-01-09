@@ -1,0 +1,373 @@
+[0.025s] Invoking command in '/home/piusr/92032_CAN/RosMsg/build/rosmsg': CMAKE_PREFIX_PATH=${CMAKE_PREFIX_PATH}:/opt/ros/jazzy DEBUGINFOD_URLS=https://debuginfod.ubuntu.com /usr/bin/cmake /home/piusr/92032_CAN/RosMsg/rosmsg -DCMAKE_INSTALL_PREFIX=/home/piusr/92032_CAN/RosMsg/install/rosmsg
+[0.134s] -- The C compiler identification is GNU 13.3.0
+[0.241s] -- The CXX compiler identification is GNU 13.3.0
+[0.270s] -- Detecting C compiler ABI info
+[0.445s] -- Detecting C compiler ABI info - done
+[0.461s] -- Check for working C compiler: /usr/bin/cc - skipped
+[0.461s] -- Detecting C compile features
+[0.462s] -- Detecting C compile features - done
+[0.477s] -- Detecting CXX compiler ABI info
+[0.668s] -- Detecting CXX compiler ABI info - done
+[0.683s] -- Check for working CXX compiler: /usr/bin/c++ - skipped
+[0.684s] -- Detecting CXX compile features
+[0.685s] -- Detecting CXX compile features - done
+[0.688s] -- Found ament_cmake: 2.5.4 (/opt/ros/jazzy/share/ament_cmake/cmake)
+[0.926s] -- Found Python3: /usr/bin/python3 (found version "3.12.3") found components: Interpreter 
+[1.090s] -- Found rclcpp: 28.1.13 (/opt/ros/jazzy/share/rclcpp/cmake)
+[1.144s] -- Found rosidl_generator_c: 4.6.6 (/opt/ros/jazzy/share/rosidl_generator_c/cmake)
+[1.162s] -- Found rosidl_generator_cpp: 4.6.6 (/opt/ros/jazzy/share/rosidl_generator_cpp/cmake)
+[1.183s] -- Using all available rosidl_typesupport_c: rosidl_typesupport_fastrtps_c;rosidl_typesupport_introspection_c
+[1.211s] -- Using all available rosidl_typesupport_cpp: rosidl_typesupport_fastrtps_cpp;rosidl_typesupport_introspection_cpp
+[1.314s] -- Found rmw_implementation_cmake: 7.3.2 (/opt/ros/jazzy/share/rmw_implementation_cmake/cmake)
+[1.318s] -- Found rmw_fastrtps_cpp: 8.4.3 (/opt/ros/jazzy/share/rmw_fastrtps_cpp/cmake)
+[1.455s] -- Found OpenSSL: /usr/lib/aarch64-linux-gnu/libcrypto.so (found version "3.0.13")  
+[1.483s] -- Found FastRTPS: /opt/ros/jazzy/include (Required is at least version "2.13") 
+[1.523s] -- Using RMW implementation 'rmw_fastrtps_cpp' as default
+[1.621s] -- Found rosidl_default_generators: 1.6.0 (/opt/ros/jazzy/share/rosidl_default_generators/cmake)
+[1.639s] -- Found rosidl_adapter: 4.6.6 (/opt/ros/jazzy/share/rosidl_adapter/cmake)
+[2.618s] -- Found ament_cmake_ros: 0.12.0 (/opt/ros/jazzy/share/ament_cmake_ros/cmake)
+[3.746s] -- Using all available rosidl_typesupport_c: rosidl_typesupport_fastrtps_c;rosidl_typesupport_introspection_c
+[4.197s] -- Using all available rosidl_typesupport_cpp: rosidl_typesupport_fastrtps_cpp;rosidl_typesupport_introspection_cpp
+[4.201s] -- Found python_cmake_module: 0.11.1 (/opt/ros/jazzy/share/python_cmake_module/cmake)
+[4.431s] -- Found PythonExtra: /usr/bin/python3  
+[5.171s] -- Found Python3: /usr/bin/python3 (found version "3.12.3") found components: Interpreter Development NumPy Development.Module Development.Embed 
+[5.228s] -- Found ament_lint_auto: 0.17.3 (/opt/ros/jazzy/share/ament_lint_auto/cmake)
+[5.254s] -- Added test 'lint_cmake' to check CMake code style
+[5.255s] -- Added test 'xmllint' to check XML markup files
+[5.259s] -- Configuring done (5.2s)
+[5.318s] -- Generating done (0.0s)
+[5.337s] -- Build files have been written to: /home/piusr/92032_CAN/RosMsg/build/rosmsg
+[5.366s] Invoked command in '/home/piusr/92032_CAN/RosMsg/build/rosmsg' returned '0': CMAKE_PREFIX_PATH=${CMAKE_PREFIX_PATH}:/opt/ros/jazzy DEBUGINFOD_URLS=https://debuginfod.ubuntu.com /usr/bin/cmake /home/piusr/92032_CAN/RosMsg/rosmsg -DCMAKE_INSTALL_PREFIX=/home/piusr/92032_CAN/RosMsg/install/rosmsg
+[5.368s] Invoking command in '/home/piusr/92032_CAN/RosMsg/build/rosmsg': CMAKE_PREFIX_PATH=${CMAKE_PREFIX_PATH}:/opt/ros/jazzy DEBUGINFOD_URLS=https://debuginfod.ubuntu.com /usr/bin/cmake --build /home/piusr/92032_CAN/RosMsg/build/rosmsg -- -j4 -l4
+[5.466s] [  1%] [34m[1mGenerating type hashes for ROS interfaces[0m
+[5.482s] [  1%] Built target ament_cmake_python_copy_rosmsg
+[5.808s] running egg_info
+[5.809s] creating rosmsg.egg-info
+[5.844s] writing rosmsg.egg-info/PKG-INFO
+[5.844s] writing dependency_links to rosmsg.egg-info/dependency_links.txt
+[5.845s] writing top-level names to rosmsg.egg-info/top_level.txt
+[5.845s] writing manifest file 'rosmsg.egg-info/SOURCES.txt'
+[5.888s] [  1%] Built target rosmsg__rosidl_generator_type_description
+[5.907s] [  2%] [34m[1mGenerating C code for ROS interfaces[0m
+[5.936s] reading manifest file 'rosmsg.egg-info/SOURCES.txt'
+[5.936s] [  4%] [34m[1mGenerating C++ code for ROS interfaces[0m
+[5.936s] writing manifest file 'rosmsg.egg-info/SOURCES.txt'
+[6.036s] [  4%] Built target ament_cmake_python_build_rosmsg_egg
+[6.738s] [  4%] Built target rosmsg__cpp
+[6.881s] [  8%] [32mBuilding C object CMakeFiles/rosmsg__rosidl_generator_c.dir/rosidl_generator_c/rosmsg/msg/detail/ros_can_motor_tgt__description.c.o[0m
+[6.881s] [  8%] [32mBuilding C object CMakeFiles/rosmsg__rosidl_generator_c.dir/rosidl_generator_c/rosmsg/msg/detail/ros_can_motor_sta__type_support.c.o[0m
+[6.881s] [  8%] [32mBuilding C object CMakeFiles/rosmsg__rosidl_generator_c.dir/rosidl_generator_c/rosmsg/msg/detail/ros_can_motor_sta__description.c.o[0m
+[6.881s] [  9%] [32mBuilding C object CMakeFiles/rosmsg__rosidl_generator_c.dir/rosidl_generator_c/rosmsg/msg/detail/ros_can_motor_sta__functions.c.o[0m
+[6.957s] [ 10%] [32mBuilding C object CMakeFiles/rosmsg__rosidl_generator_c.dir/rosidl_generator_c/rosmsg/msg/detail/ros_can_motor_tgt__functions.c.o[0m
+[6.974s] [ 12%] [32mBuilding C object CMakeFiles/rosmsg__rosidl_generator_c.dir/rosidl_generator_c/rosmsg/msg/detail/ros_can_motor_tgt__type_support.c.o[0m
+[6.977s] [ 13%] [32mBuilding C object CMakeFiles/rosmsg__rosidl_generator_c.dir/rosidl_generator_c/rosmsg/msg/detail/ros_can_imu_msg__description.c.o[0m
+[7.002s] [ 14%] [32mBuilding C object CMakeFiles/rosmsg__rosidl_generator_c.dir/rosidl_generator_c/rosmsg/msg/detail/ros_can_imu_msg__functions.c.o[0m
+[7.053s] [ 16%] [32mBuilding C object CMakeFiles/rosmsg__rosidl_generator_c.dir/rosidl_generator_c/rosmsg/msg/detail/ros_can_imu_msg__type_support.c.o[0m
+[7.066s] [ 17%] [32mBuilding C object CMakeFiles/rosmsg__rosidl_generator_c.dir/rosidl_generator_c/rosmsg/msg/detail/motor_input_msg__description.c.o[0m
+[7.089s] [ 18%] [32mBuilding C object CMakeFiles/rosmsg__rosidl_generator_c.dir/rosidl_generator_c/rosmsg/msg/detail/motor_input_msg__functions.c.o[0m
+[7.124s] [ 21%] [32mBuilding C object CMakeFiles/rosmsg__rosidl_generator_c.dir/rosidl_generator_c/rosmsg/msg/detail/motor_output_msg__description.c.o[0m
+[7.128s] [ 21%] [32mBuilding C object CMakeFiles/rosmsg__rosidl_generator_c.dir/rosidl_generator_c/rosmsg/msg/detail/motor_input_msg__type_support.c.o[0m
+[7.170s] [ 22%] [32mBuilding C object CMakeFiles/rosmsg__rosidl_generator_c.dir/rosidl_generator_c/rosmsg/msg/detail/motor_output_msg__functions.c.o[0m
+[7.207s] [ 24%] [32mBuilding C object CMakeFiles/rosmsg__rosidl_generator_c.dir/rosidl_generator_c/rosmsg/msg/detail/motor_output_msg__type_support.c.o[0m
+[7.268s] [ 25%] [32m[1mLinking C shared library librosmsg__rosidl_generator_c.so[0m
+[7.350s] [ 25%] Built target rosmsg__rosidl_generator_c
+[7.376s] [ 28%] [34m[1mGenerating C type support for eProsima Fast-RTPS[0m
+[7.376s] [ 28%] [34m[1mGenerating C introspection for ROS interfaces[0m
+[7.377s] [ 29%] [34m[1mGenerating C++ type support dispatch for ROS interfaces[0m
+[7.377s] [ 31%] [34m[1mGenerating C++ type support for eProsima Fast-RTPS[0m
+[8.026s] [ 32%] [32mBuilding CXX object CMakeFiles/rosmsg__rosidl_typesupport_cpp.dir/rosidl_typesupport_cpp/rosmsg/msg/ros_can_motor_sta__type_support.cpp.o[0m
+[8.190s] [ 33%] [32mBuilding C object CMakeFiles/rosmsg__rosidl_typesupport_introspection_c.dir/rosidl_typesupport_introspection_c/rosmsg/msg/detail/ros_can_motor_sta__type_support.c.o[0m
+[8.288s] [ 35%] [32mBuilding C object CMakeFiles/rosmsg__rosidl_typesupport_introspection_c.dir/rosidl_typesupport_introspection_c/rosmsg/msg/detail/ros_can_motor_tgt__type_support.c.o[0m
+[8.375s] [ 36%] [32mBuilding C object CMakeFiles/rosmsg__rosidl_typesupport_introspection_c.dir/rosidl_typesupport_introspection_c/rosmsg/msg/detail/ros_can_imu_msg__type_support.c.o[0m
+[8.425s] [ 37%] [32mBuilding CXX object CMakeFiles/rosmsg__rosidl_typesupport_fastrtps_cpp.dir/rosidl_typesupport_fastrtps_cpp/rosmsg/msg/detail/dds_fastrtps/ros_can_motor_sta__type_support.cpp.o[0m
+[8.435s] [ 39%] [32mBuilding CXX object CMakeFiles/rosmsg__rosidl_typesupport_fastrtps_c.dir/rosidl_typesupport_fastrtps_c/rosmsg/msg/detail/ros_can_motor_sta__type_support_c.cpp.o[0m
+[8.465s] [ 40%] [32mBuilding C object CMakeFiles/rosmsg__rosidl_typesupport_introspection_c.dir/rosidl_typesupport_introspection_c/rosmsg/msg/detail/motor_input_msg__type_support.c.o[0m
+[8.544s] [ 41%] [32mBuilding C object CMakeFiles/rosmsg__rosidl_typesupport_introspection_c.dir/rosidl_typesupport_introspection_c/rosmsg/msg/detail/motor_output_msg__type_support.c.o[0m
+[8.631s] [ 43%] [32m[1mLinking C shared library librosmsg__rosidl_typesupport_introspection_c.so[0m
+[8.708s] [ 43%] Built target rosmsg__rosidl_typesupport_introspection_c
+[8.731s] [ 44%] [32mBuilding CXX object CMakeFiles/rosmsg__rosidl_typesupport_fastrtps_c.dir/rosidl_typesupport_fastrtps_c/rosmsg/msg/detail/ros_can_motor_tgt__type_support_c.cpp.o[0m
+[8.812s] [ 45%] [32mBuilding CXX object CMakeFiles/rosmsg__rosidl_typesupport_cpp.dir/rosidl_typesupport_cpp/rosmsg/msg/ros_can_motor_tgt__type_support.cpp.o[0m
+[9.496s] [ 47%] [34m[1mGenerating C type support dispatch for ROS interfaces[0m
+[9.504s] [ 48%] [32mBuilding CXX object CMakeFiles/rosmsg__rosidl_typesupport_fastrtps_cpp.dir/rosidl_typesupport_fastrtps_cpp/rosmsg/msg/detail/dds_fastrtps/ros_can_motor_tgt__type_support.cpp.o[0m
+[9.595s] [ 50%] [32mBuilding CXX object CMakeFiles/rosmsg__rosidl_typesupport_cpp.dir/rosidl_typesupport_cpp/rosmsg/msg/ros_can_imu_msg__type_support.cpp.o[0m
+[9.762s] [ 51%] [32mBuilding CXX object CMakeFiles/rosmsg__rosidl_typesupport_fastrtps_c.dir/rosidl_typesupport_fastrtps_c/rosmsg/msg/detail/ros_can_imu_msg__type_support_c.cpp.o[0m
+[10.268s] [ 52%] [32mBuilding CXX object CMakeFiles/rosmsg__rosidl_typesupport_c.dir/rosidl_typesupport_c/rosmsg/msg/ros_can_motor_sta__type_support.cpp.o[0m
+[10.301s] [ 54%] [32mBuilding CXX object CMakeFiles/rosmsg__rosidl_typesupport_cpp.dir/rosidl_typesupport_cpp/rosmsg/msg/motor_input_msg__type_support.cpp.o[0m
+[10.362s] [ 55%] [32mBuilding CXX object CMakeFiles/rosmsg__rosidl_typesupport_c.dir/rosidl_typesupport_c/rosmsg/msg/ros_can_motor_tgt__type_support.cpp.o[0m
+[10.458s] [ 56%] [32mBuilding CXX object CMakeFiles/rosmsg__rosidl_typesupport_c.dir/rosidl_typesupport_c/rosmsg/msg/ros_can_imu_msg__type_support.cpp.o[0m
+[10.548s] [ 58%] [32mBuilding CXX object CMakeFiles/rosmsg__rosidl_typesupport_c.dir/rosidl_typesupport_c/rosmsg/msg/motor_input_msg__type_support.cpp.o[0m
+[10.648s] [ 59%] [32mBuilding CXX object CMakeFiles/rosmsg__rosidl_typesupport_c.dir/rosidl_typesupport_c/rosmsg/msg/motor_output_msg__type_support.cpp.o[0m
+[10.680s] [ 60%] [32mBuilding CXX object CMakeFiles/rosmsg__rosidl_typesupport_fastrtps_cpp.dir/rosidl_typesupport_fastrtps_cpp/rosmsg/msg/detail/dds_fastrtps/ros_can_imu_msg__type_support.cpp.o[0m
+[10.753s] [ 62%] [32m[1mLinking CXX shared library librosmsg__rosidl_typesupport_c.so[0m
+[10.870s] [ 62%] Built target rosmsg__rosidl_typesupport_c
+[10.893s] [ 63%] [32mBuilding CXX object CMakeFiles/rosmsg__rosidl_typesupport_cpp.dir/rosidl_typesupport_cpp/rosmsg/msg/motor_output_msg__type_support.cpp.o[0m
+[10.895s] [ 64%] [32mBuilding CXX object CMakeFiles/rosmsg__rosidl_typesupport_fastrtps_c.dir/rosidl_typesupport_fastrtps_c/rosmsg/msg/detail/motor_input_msg__type_support_c.cpp.o[0m
+[11.017s] [ 66%] [34m[1mGenerating C++ introspection for ROS interfaces[0m
+[11.566s] [ 67%] [32m[1mLinking CXX shared library librosmsg__rosidl_typesupport_cpp.so[0m
+[11.664s] [ 67%] Built target rosmsg__rosidl_typesupport_cpp
+[11.692s] [ 68%] [32mBuilding CXX object CMakeFiles/rosmsg__rosidl_typesupport_fastrtps_cpp.dir/rosidl_typesupport_fastrtps_cpp/rosmsg/msg/detail/dds_fastrtps/motor_input_msg__type_support.cpp.o[0m
+[11.814s] [ 70%] [32mBuilding CXX object CMakeFiles/rosmsg__rosidl_typesupport_fastrtps_cpp.dir/rosidl_typesupport_fastrtps_cpp/rosmsg/msg/detail/dds_fastrtps/motor_output_msg__type_support.cpp.o[0m
+[11.958s] [ 71%] [32mBuilding CXX object CMakeFiles/rosmsg__rosidl_typesupport_introspection_cpp.dir/rosidl_typesupport_introspection_cpp/rosmsg/msg/detail/ros_can_motor_sta__type_support.cpp.o[0m
+[12.030s] [ 72%] [32mBuilding CXX object CMakeFiles/rosmsg__rosidl_typesupport_fastrtps_c.dir/rosidl_typesupport_fastrtps_c/rosmsg/msg/detail/motor_output_msg__type_support_c.cpp.o[0m
+[12.665s] [ 74%] [32mBuilding CXX object CMakeFiles/rosmsg__rosidl_typesupport_introspection_cpp.dir/rosidl_typesupport_introspection_cpp/rosmsg/msg/detail/ros_can_motor_tgt__type_support.cpp.o[0m
+[12.774s] [ 75%] [32mBuilding CXX object CMakeFiles/rosmsg__rosidl_typesupport_introspection_cpp.dir/rosidl_typesupport_introspection_cpp/rosmsg/msg/detail/ros_can_imu_msg__type_support.cpp.o[0m
+[12.923s] [ 77%] [32m[1mLinking CXX shared library librosmsg__rosidl_typesupport_fastrtps_cpp.so[0m
+[13.062s] [ 77%] Built target rosmsg__rosidl_typesupport_fastrtps_cpp
+[13.087s] [ 78%] [32mBuilding CXX object CMakeFiles/rosmsg__rosidl_typesupport_introspection_cpp.dir/rosidl_typesupport_introspection_cpp/rosmsg/msg/detail/motor_input_msg__type_support.cpp.o[0m
+[13.163s] [ 79%] [32m[1mLinking CXX shared library librosmsg__rosidl_typesupport_fastrtps_c.so[0m
+[13.299s] [ 79%] Built target rosmsg__rosidl_typesupport_fastrtps_c
+[13.324s] [ 81%] [32mBuilding CXX object CMakeFiles/rosmsg__rosidl_typesupport_introspection_cpp.dir/rosidl_typesupport_introspection_cpp/rosmsg/msg/detail/motor_output_msg__type_support.cpp.o[0m
+[13.847s] [ 82%] [32m[1mLinking CXX shared library librosmsg__rosidl_typesupport_introspection_cpp.so[0m
+[14.005s] [ 82%] Built target rosmsg__rosidl_typesupport_introspection_cpp
+[14.041s] [ 82%] Built target rosmsg
+[14.078s] [ 83%] [34m[1mGenerating Python code for ROS interfaces[0m
+[14.941s] [ 83%] Built target rosmsg__py
+[14.981s] [ 86%] [32mBuilding C object CMakeFiles/rosmsg__rosidl_generator_py.dir/rosidl_generator_py/rosmsg/msg/_ros_can_motor_tgt_s.c.o[0m
+[14.981s] [ 86%] [32mBuilding C object CMakeFiles/rosmsg__rosidl_generator_py.dir/rosidl_generator_py/rosmsg/msg/_ros_can_motor_sta_s.c.o[0m
+[14.982s] [ 87%] [32mBuilding C object CMakeFiles/rosmsg__rosidl_generator_py.dir/rosidl_generator_py/rosmsg/msg/_motor_input_msg_s.c.o[0m
+[14.983s] [ 89%] [32mBuilding C object CMakeFiles/rosmsg__rosidl_generator_py.dir/rosidl_generator_py/rosmsg/msg/_ros_can_imu_msg_s.c.o[0m
+[15.241s] [ 90%] [32mBuilding C object CMakeFiles/rosmsg__rosidl_generator_py.dir/rosidl_generator_py/rosmsg/msg/_motor_output_msg_s.c.o[0m
+[15.430s] [ 91%] [32m[1mLinking C shared library librosmsg__rosidl_generator_py.so[0m
+[15.511s] [ 91%] Built target rosmsg__rosidl_generator_py
+[15.549s] [ 95%] [32mBuilding C object CMakeFiles/rosmsg_s__rosidl_typesupport_introspection_c.dir/rosidl_generator_py/rosmsg/_rosmsg_s.ep.rosidl_typesupport_introspection_c.c.o[0m
+[15.549s] [ 95%] [32mBuilding C object CMakeFiles/rosmsg_s__rosidl_typesupport_fastrtps_c.dir/rosidl_generator_py/rosmsg/_rosmsg_s.ep.rosidl_typesupport_fastrtps_c.c.o[0m
+[15.549s] [ 95%] [32mBuilding C object CMakeFiles/rosmsg_s__rosidl_typesupport_c.dir/rosidl_generator_py/rosmsg/_rosmsg_s.ep.rosidl_typesupport_c.c.o[0m
+[15.757s] [ 97%] [32m[1mLinking C shared module rosidl_generator_py/rosmsg/rosmsg_s__rosidl_typesupport_c.so[0m
+[15.759s] [ 98%] [32m[1mLinking C shared module rosidl_generator_py/rosmsg/rosmsg_s__rosidl_typesupport_introspection_c.so[0m
+[15.770s] [100%] [32m[1mLinking C shared module rosidl_generator_py/rosmsg/rosmsg_s__rosidl_typesupport_fastrtps_c.so[0m
+[15.824s] [100%] Built target rosmsg_s__rosidl_typesupport_introspection_c
+[15.826s] [100%] Built target rosmsg_s__rosidl_typesupport_c
+[15.839s] [100%] Built target rosmsg_s__rosidl_typesupport_fastrtps_c
+[15.862s] Invoked command in '/home/piusr/92032_CAN/RosMsg/build/rosmsg' returned '0': CMAKE_PREFIX_PATH=${CMAKE_PREFIX_PATH}:/opt/ros/jazzy DEBUGINFOD_URLS=https://debuginfod.ubuntu.com /usr/bin/cmake --build /home/piusr/92032_CAN/RosMsg/build/rosmsg -- -j4 -l4
+[15.881s] Invoking command in '/home/piusr/92032_CAN/RosMsg/build/rosmsg': CMAKE_PREFIX_PATH=${CMAKE_PREFIX_PATH}:/opt/ros/jazzy DEBUGINFOD_URLS=https://debuginfod.ubuntu.com /usr/bin/cmake --install /home/piusr/92032_CAN/RosMsg/build/rosmsg
+[15.898s] -- Install configuration: ""
+[15.899s] -- Installing: /home/piusr/92032_CAN/RosMsg/install/rosmsg/share/ament_index/resource_index/rosidl_interfaces/rosmsg
+[15.899s] -- Installing: /home/piusr/92032_CAN/RosMsg/install/rosmsg/share/rosmsg/msg/RosCanMotorSta.json
+[15.900s] -- Installing: /home/piusr/92032_CAN/RosMsg/install/rosmsg/share/rosmsg/msg/RosCanMotorTgt.json
+[15.900s] -- Installing: /home/piusr/92032_CAN/RosMsg/install/rosmsg/share/rosmsg/msg/RosCanImuMsg.json
+[15.900s] -- Installing: /home/piusr/92032_CAN/RosMsg/install/rosmsg/share/rosmsg/msg/MotorInputMsg.json
+[15.901s] -- Installing: /home/piusr/92032_CAN/RosMsg/install/rosmsg/share/rosmsg/msg/MotorOutputMsg.json
+[15.901s] -- Installing: /home/piusr/92032_CAN/RosMsg/install/rosmsg/include/rosmsg/rosmsg
+[15.901s] -- Installing: /home/piusr/92032_CAN/RosMsg/install/rosmsg/include/rosmsg/rosmsg/msg
+[15.901s] -- Installing: /home/piusr/92032_CAN/RosMsg/install/rosmsg/include/rosmsg/rosmsg/msg/ros_can_motor_tgt.h
+[15.901s] -- Installing: /home/piusr/92032_CAN/RosMsg/install/rosmsg/include/rosmsg/rosmsg/msg/motor_output_msg.h
+[15.903s] -- Installing: /home/piusr/92032_CAN/RosMsg/install/rosmsg/include/rosmsg/rosmsg/msg/rosidl_generator_c__visibility_control.h
+[15.903s] -- Installing: /home/piusr/92032_CAN/RosMsg/install/rosmsg/include/rosmsg/rosmsg/msg/motor_input_msg.h
+[15.904s] -- Installing: /home/piusr/92032_CAN/RosMsg/install/rosmsg/include/rosmsg/rosmsg/msg/ros_can_motor_sta.h
+[15.904s] -- Installing: /home/piusr/92032_CAN/RosMsg/install/rosmsg/include/rosmsg/rosmsg/msg/detail
+[15.904s] -- Installing: /home/piusr/92032_CAN/RosMsg/install/rosmsg/include/rosmsg/rosmsg/msg/detail/ros_can_motor_sta__functions.h
+[15.904s] -- Installing: /home/piusr/92032_CAN/RosMsg/install/rosmsg/include/rosmsg/rosmsg/msg/detail/ros_can_imu_msg__functions.h
+[15.905s] -- Installing: /home/piusr/92032_CAN/RosMsg/install/rosmsg/include/rosmsg/rosmsg/msg/detail/ros_can_imu_msg__struct.h
+[15.905s] -- Installing: /home/piusr/92032_CAN/RosMsg/install/rosmsg/include/rosmsg/rosmsg/msg/detail/motor_input_msg__type_support.h
+[15.905s] -- Installing: /home/piusr/92032_CAN/RosMsg/install/rosmsg/include/rosmsg/rosmsg/msg/detail/ros_can_motor_tgt__functions.c
+[15.905s] -- Installing: /home/piusr/92032_CAN/RosMsg/install/rosmsg/include/rosmsg/rosmsg/msg/detail/motor_output_msg__functions.c
+[15.906s] -- Installing: /home/piusr/92032_CAN/RosMsg/install/rosmsg/include/rosmsg/rosmsg/msg/detail/motor_output_msg__type_support.h
+[15.906s] -- Installing: /home/piusr/92032_CAN/RosMsg/install/rosmsg/include/rosmsg/rosmsg/msg/detail/ros_can_motor_tgt__functions.h
+[15.906s] -- Installing: /home/piusr/92032_CAN/RosMsg/install/rosmsg/include/rosmsg/rosmsg/msg/detail/motor_output_msg__functions.h
+[15.907s] -- Installing: /home/piusr/92032_CAN/RosMsg/install/rosmsg/include/rosmsg/rosmsg/msg/detail/ros_can_motor_tgt__struct.h
+[15.907s] -- Installing: /home/piusr/92032_CAN/RosMsg/install/rosmsg/include/rosmsg/rosmsg/msg/detail/ros_can_motor_sta__description.c
+[15.907s] -- Installing: /home/piusr/92032_CAN/RosMsg/install/rosmsg/include/rosmsg/rosmsg/msg/detail/motor_output_msg__description.c
+[15.908s] -- Installing: /home/piusr/92032_CAN/RosMsg/install/rosmsg/include/rosmsg/rosmsg/msg/detail/ros_can_motor_sta__functions.c
+[15.908s] -- Installing: /home/piusr/92032_CAN/RosMsg/install/rosmsg/include/rosmsg/rosmsg/msg/detail/ros_can_imu_msg__type_support.h
+[15.908s] -- Installing: /home/piusr/92032_CAN/RosMsg/install/rosmsg/include/rosmsg/rosmsg/msg/detail/motor_input_msg__description.c
+[15.908s] -- Installing: /home/piusr/92032_CAN/RosMsg/install/rosmsg/include/rosmsg/rosmsg/msg/detail/ros_can_motor_sta__type_support.c
+[15.908s] -- Installing: /home/piusr/92032_CAN/RosMsg/install/rosmsg/include/rosmsg/rosmsg/msg/detail/ros_can_imu_msg__description.c
+[15.909s] -- Installing: /home/piusr/92032_CAN/RosMsg/install/rosmsg/include/rosmsg/rosmsg/msg/detail/ros_can_motor_tgt__type_support.c
+[15.909s] -- Installing: /home/piusr/92032_CAN/RosMsg/install/rosmsg/include/rosmsg/rosmsg/msg/detail/motor_output_msg__type_support.c
+[15.909s] -- Installing: /home/piusr/92032_CAN/RosMsg/install/rosmsg/include/rosmsg/rosmsg/msg/detail/ros_can_imu_msg__type_support.c
+[15.909s] -- Installing: /home/piusr/92032_CAN/RosMsg/install/rosmsg/include/rosmsg/rosmsg/msg/detail/ros_can_motor_tgt__description.c
+[15.910s] -- Installing: /home/piusr/92032_CAN/RosMsg/install/rosmsg/include/rosmsg/rosmsg/msg/detail/motor_input_msg__functions.h
+[15.910s] -- Installing: /home/piusr/92032_CAN/RosMsg/install/rosmsg/include/rosmsg/rosmsg/msg/detail/ros_can_motor_sta__struct.h
+[15.910s] -- Installing: /home/piusr/92032_CAN/RosMsg/install/rosmsg/include/rosmsg/rosmsg/msg/detail/ros_can_motor_sta__type_support.h
+[15.910s] -- Installing: /home/piusr/92032_CAN/RosMsg/install/rosmsg/include/rosmsg/rosmsg/msg/detail/ros_can_imu_msg__functions.c
+[15.910s] -- Installing: /home/piusr/92032_CAN/RosMsg/install/rosmsg/include/rosmsg/rosmsg/msg/detail/motor_output_msg__struct.h
+[15.910s] -- Installing: /home/piusr/92032_CAN/RosMsg/install/rosmsg/include/rosmsg/rosmsg/msg/detail/motor_input_msg__type_support.c
+[15.912s] -- Installing: /home/piusr/92032_CAN/RosMsg/install/rosmsg/include/rosmsg/rosmsg/msg/detail/motor_input_msg__struct.h
+[15.912s] -- Installing: /home/piusr/92032_CAN/RosMsg/install/rosmsg/include/rosmsg/rosmsg/msg/detail/ros_can_motor_tgt__type_support.h
+[15.913s] -- Installing: /home/piusr/92032_CAN/RosMsg/install/rosmsg/include/rosmsg/rosmsg/msg/detail/motor_input_msg__functions.c
+[15.913s] -- Installing: /home/piusr/92032_CAN/RosMsg/install/rosmsg/include/rosmsg/rosmsg/msg/ros_can_imu_msg.h
+[15.913s] -- Installing: /home/piusr/92032_CAN/RosMsg/install/rosmsg/share/rosmsg/environment/library_path.sh
+[15.913s] -- Installing: /home/piusr/92032_CAN/RosMsg/install/rosmsg/share/rosmsg/environment/library_path.dsv
+[15.914s] -- Installing: /home/piusr/92032_CAN/RosMsg/install/rosmsg/lib/librosmsg__rosidl_generator_c.so
+[15.915s] -- Set non-toolchain portion of runtime path of "/home/piusr/92032_CAN/RosMsg/install/rosmsg/lib/librosmsg__rosidl_generator_c.so" to ""
+[15.915s] -- Up-to-date: /home/piusr/92032_CAN/RosMsg/install/rosmsg/include/rosmsg/rosmsg
+[15.915s] -- Up-to-date: /home/piusr/92032_CAN/RosMsg/install/rosmsg/include/rosmsg/rosmsg/msg
+[15.915s] -- Installing: /home/piusr/92032_CAN/RosMsg/install/rosmsg/include/rosmsg/rosmsg/msg/rosidl_typesupport_fastrtps_c__visibility_control.h
+[15.915s] -- Up-to-date: /home/piusr/92032_CAN/RosMsg/install/rosmsg/include/rosmsg/rosmsg/msg/detail
+[15.915s] -- Installing: /home/piusr/92032_CAN/RosMsg/install/rosmsg/include/rosmsg/rosmsg/msg/detail/motor_input_msg__rosidl_typesupport_fastrtps_c.h
+[15.915s] -- Installing: /home/piusr/92032_CAN/RosMsg/install/rosmsg/include/rosmsg/rosmsg/msg/detail/ros_can_imu_msg__rosidl_typesupport_fastrtps_c.h
+[15.915s] -- Installing: /home/piusr/92032_CAN/RosMsg/install/rosmsg/include/rosmsg/rosmsg/msg/detail/motor_output_msg__rosidl_typesupport_fastrtps_c.h
+[15.915s] -- Installing: /home/piusr/92032_CAN/RosMsg/install/rosmsg/include/rosmsg/rosmsg/msg/detail/ros_can_motor_tgt__rosidl_typesupport_fastrtps_c.h
+[15.916s] -- Installing: /home/piusr/92032_CAN/RosMsg/install/rosmsg/include/rosmsg/rosmsg/msg/detail/ros_can_motor_sta__rosidl_typesupport_fastrtps_c.h
+[15.916s] -- Installing: /home/piusr/92032_CAN/RosMsg/install/rosmsg/lib/librosmsg__rosidl_typesupport_fastrtps_c.so
+[15.916s] -- Set non-toolchain portion of runtime path of "/home/piusr/92032_CAN/RosMsg/install/rosmsg/lib/librosmsg__rosidl_typesupport_fastrtps_c.so" to ""
+[15.917s] -- Up-to-date: /home/piusr/92032_CAN/RosMsg/install/rosmsg/include/rosmsg/rosmsg
+[15.917s] -- Up-to-date: /home/piusr/92032_CAN/RosMsg/install/rosmsg/include/rosmsg/rosmsg/msg
+[15.917s] -- Installing: /home/piusr/92032_CAN/RosMsg/install/rosmsg/include/rosmsg/rosmsg/msg/ros_can_motor_tgt.hpp
+[15.917s] -- Installing: /home/piusr/92032_CAN/RosMsg/install/rosmsg/include/rosmsg/rosmsg/msg/rosidl_generator_cpp__visibility_control.hpp
+[15.917s] -- Installing: /home/piusr/92032_CAN/RosMsg/install/rosmsg/include/rosmsg/rosmsg/msg/ros_can_motor_sta.hpp
+[15.917s] -- Installing: /home/piusr/92032_CAN/RosMsg/install/rosmsg/include/rosmsg/rosmsg/msg/ros_can_imu_msg.hpp
+[15.917s] -- Installing: /home/piusr/92032_CAN/RosMsg/install/rosmsg/include/rosmsg/rosmsg/msg/motor_output_msg.hpp
+[15.917s] -- Up-to-date: /home/piusr/92032_CAN/RosMsg/install/rosmsg/include/rosmsg/rosmsg/msg/detail
+[15.917s] -- Installing: /home/piusr/92032_CAN/RosMsg/install/rosmsg/include/rosmsg/rosmsg/msg/detail/ros_can_motor_tgt__builder.hpp
+[15.918s] -- Installing: /home/piusr/92032_CAN/RosMsg/install/rosmsg/include/rosmsg/rosmsg/msg/detail/ros_can_motor_tgt__struct.hpp
+[15.918s] -- Installing: /home/piusr/92032_CAN/RosMsg/install/rosmsg/include/rosmsg/rosmsg/msg/detail/motor_input_msg__struct.hpp
+[15.918s] -- Installing: /home/piusr/92032_CAN/RosMsg/install/rosmsg/include/rosmsg/rosmsg/msg/detail/ros_can_motor_sta__type_support.hpp
+[15.918s] -- Installing: /home/piusr/92032_CAN/RosMsg/install/rosmsg/include/rosmsg/rosmsg/msg/detail/motor_output_msg__traits.hpp
+[15.918s] -- Installing: /home/piusr/92032_CAN/RosMsg/install/rosmsg/include/rosmsg/rosmsg/msg/detail/ros_can_imu_msg__struct.hpp
+[15.918s] -- Installing: /home/piusr/92032_CAN/RosMsg/install/rosmsg/include/rosmsg/rosmsg/msg/detail/motor_input_msg__builder.hpp
+[15.918s] -- Installing: /home/piusr/92032_CAN/RosMsg/install/rosmsg/include/rosmsg/rosmsg/msg/detail/ros_can_imu_msg__type_support.hpp
+[15.918s] -- Installing: /home/piusr/92032_CAN/RosMsg/install/rosmsg/include/rosmsg/rosmsg/msg/detail/ros_can_motor_tgt__traits.hpp
+[15.919s] -- Installing: /home/piusr/92032_CAN/RosMsg/install/rosmsg/include/rosmsg/rosmsg/msg/detail/ros_can_imu_msg__builder.hpp
+[15.919s] -- Installing: /home/piusr/92032_CAN/RosMsg/install/rosmsg/include/rosmsg/rosmsg/msg/detail/motor_output_msg__type_support.hpp
+[15.919s] -- Installing: /home/piusr/92032_CAN/RosMsg/install/rosmsg/include/rosmsg/rosmsg/msg/detail/motor_output_msg__struct.hpp
+[15.919s] -- Installing: /home/piusr/92032_CAN/RosMsg/install/rosmsg/include/rosmsg/rosmsg/msg/detail/motor_input_msg__type_support.hpp
+[15.919s] -- Installing: /home/piusr/92032_CAN/RosMsg/install/rosmsg/include/rosmsg/rosmsg/msg/detail/ros_can_motor_sta__builder.hpp
+[15.919s] -- Installing: /home/piusr/92032_CAN/RosMsg/install/rosmsg/include/rosmsg/rosmsg/msg/detail/ros_can_imu_msg__traits.hpp
+[15.920s] -- Installing: /home/piusr/92032_CAN/RosMsg/install/rosmsg/include/rosmsg/rosmsg/msg/detail/ros_can_motor_sta__traits.hpp
+[15.920s] -- Installing: /home/piusr/92032_CAN/RosMsg/install/rosmsg/include/rosmsg/rosmsg/msg/detail/ros_can_motor_tgt__type_support.hpp
+[15.920s] -- Installing: /home/piusr/92032_CAN/RosMsg/install/rosmsg/include/rosmsg/rosmsg/msg/detail/motor_input_msg__traits.hpp
+[15.920s] -- Installing: /home/piusr/92032_CAN/RosMsg/install/rosmsg/include/rosmsg/rosmsg/msg/detail/motor_output_msg__builder.hpp
+[15.920s] -- Installing: /home/piusr/92032_CAN/RosMsg/install/rosmsg/include/rosmsg/rosmsg/msg/detail/ros_can_motor_sta__struct.hpp
+[15.920s] -- Installing: /home/piusr/92032_CAN/RosMsg/install/rosmsg/include/rosmsg/rosmsg/msg/motor_input_msg.hpp
+[15.920s] -- Up-to-date: /home/piusr/92032_CAN/RosMsg/install/rosmsg/include/rosmsg/rosmsg
+[15.921s] -- Up-to-date: /home/piusr/92032_CAN/RosMsg/install/rosmsg/include/rosmsg/rosmsg/msg
+[15.921s] -- Installing: /home/piusr/92032_CAN/RosMsg/install/rosmsg/include/rosmsg/rosmsg/msg/rosidl_typesupport_fastrtps_cpp__visibility_control.h
+[15.921s] -- Up-to-date: /home/piusr/92032_CAN/RosMsg/install/rosmsg/include/rosmsg/rosmsg/msg/detail
+[15.921s] -- Installing: /home/piusr/92032_CAN/RosMsg/install/rosmsg/include/rosmsg/rosmsg/msg/detail/ros_can_motor_tgt__rosidl_typesupport_fastrtps_cpp.hpp
+[15.921s] -- Installing: /home/piusr/92032_CAN/RosMsg/install/rosmsg/include/rosmsg/rosmsg/msg/detail/motor_output_msg__rosidl_typesupport_fastrtps_cpp.hpp
+[15.921s] -- Installing: /home/piusr/92032_CAN/RosMsg/install/rosmsg/include/rosmsg/rosmsg/msg/detail/ros_can_motor_sta__rosidl_typesupport_fastrtps_cpp.hpp
+[15.921s] -- Installing: /home/piusr/92032_CAN/RosMsg/install/rosmsg/include/rosmsg/rosmsg/msg/detail/dds_fastrtps
+[15.921s] -- Installing: /home/piusr/92032_CAN/RosMsg/install/rosmsg/include/rosmsg/rosmsg/msg/detail/motor_input_msg__rosidl_typesupport_fastrtps_cpp.hpp
+[15.922s] -- Installing: /home/piusr/92032_CAN/RosMsg/install/rosmsg/include/rosmsg/rosmsg/msg/detail/ros_can_imu_msg__rosidl_typesupport_fastrtps_cpp.hpp
+[15.922s] -- Installing: /home/piusr/92032_CAN/RosMsg/install/rosmsg/lib/librosmsg__rosidl_typesupport_fastrtps_cpp.so
+[15.922s] -- Set non-toolchain portion of runtime path of "/home/piusr/92032_CAN/RosMsg/install/rosmsg/lib/librosmsg__rosidl_typesupport_fastrtps_cpp.so" to ""
+[15.923s] -- Up-to-date: /home/piusr/92032_CAN/RosMsg/install/rosmsg/include/rosmsg/rosmsg
+[15.923s] -- Up-to-date: /home/piusr/92032_CAN/RosMsg/install/rosmsg/include/rosmsg/rosmsg/msg
+[15.923s] -- Installing: /home/piusr/92032_CAN/RosMsg/install/rosmsg/include/rosmsg/rosmsg/msg/rosidl_typesupport_introspection_c__visibility_control.h
+[15.923s] -- Up-to-date: /home/piusr/92032_CAN/RosMsg/install/rosmsg/include/rosmsg/rosmsg/msg/detail
+[15.923s] -- Installing: /home/piusr/92032_CAN/RosMsg/install/rosmsg/include/rosmsg/rosmsg/msg/detail/ros_can_imu_msg__rosidl_typesupport_introspection_c.h
+[15.923s] -- Installing: /home/piusr/92032_CAN/RosMsg/install/rosmsg/include/rosmsg/rosmsg/msg/detail/ros_can_motor_tgt__rosidl_typesupport_introspection_c.h
+[15.923s] -- Installing: /home/piusr/92032_CAN/RosMsg/install/rosmsg/include/rosmsg/rosmsg/msg/detail/motor_input_msg__rosidl_typesupport_introspection_c.h
+[15.923s] -- Installing: /home/piusr/92032_CAN/RosMsg/install/rosmsg/include/rosmsg/rosmsg/msg/detail/ros_can_motor_sta__type_support.c
+[15.923s] -- Installing: /home/piusr/92032_CAN/RosMsg/install/rosmsg/include/rosmsg/rosmsg/msg/detail/ros_can_motor_tgt__type_support.c
+[15.923s] -- Installing: /home/piusr/92032_CAN/RosMsg/install/rosmsg/include/rosmsg/rosmsg/msg/detail/motor_output_msg__type_support.c
+[15.924s] -- Installing: /home/piusr/92032_CAN/RosMsg/install/rosmsg/include/rosmsg/rosmsg/msg/detail/ros_can_imu_msg__type_support.c
+[15.924s] -- Installing: /home/piusr/92032_CAN/RosMsg/install/rosmsg/include/rosmsg/rosmsg/msg/detail/ros_can_motor_sta__rosidl_typesupport_introspection_c.h
+[15.924s] -- Installing: /home/piusr/92032_CAN/RosMsg/install/rosmsg/include/rosmsg/rosmsg/msg/detail/motor_input_msg__type_support.c
+[15.924s] -- Installing: /home/piusr/92032_CAN/RosMsg/install/rosmsg/include/rosmsg/rosmsg/msg/detail/motor_output_msg__rosidl_typesupport_introspection_c.h
+[15.924s] -- Installing: /home/piusr/92032_CAN/RosMsg/install/rosmsg/lib/librosmsg__rosidl_typesupport_introspection_c.so
+[15.925s] -- Set non-toolchain portion of runtime path of "/home/piusr/92032_CAN/RosMsg/install/rosmsg/lib/librosmsg__rosidl_typesupport_introspection_c.so" to ""
+[15.925s] -- Installing: /home/piusr/92032_CAN/RosMsg/install/rosmsg/lib/librosmsg__rosidl_typesupport_c.so
+[15.926s] -- Set non-toolchain portion of runtime path of "/home/piusr/92032_CAN/RosMsg/install/rosmsg/lib/librosmsg__rosidl_typesupport_c.so" to ""
+[15.926s] -- Up-to-date: /home/piusr/92032_CAN/RosMsg/install/rosmsg/include/rosmsg/rosmsg
+[15.926s] -- Up-to-date: /home/piusr/92032_CAN/RosMsg/install/rosmsg/include/rosmsg/rosmsg/msg
+[15.926s] -- Up-to-date: /home/piusr/92032_CAN/RosMsg/install/rosmsg/include/rosmsg/rosmsg/msg/detail
+[15.926s] -- Installing: /home/piusr/92032_CAN/RosMsg/install/rosmsg/include/rosmsg/rosmsg/msg/detail/motor_input_msg__rosidl_typesupport_introspection_cpp.hpp
+[15.926s] -- Installing: /home/piusr/92032_CAN/RosMsg/install/rosmsg/include/rosmsg/rosmsg/msg/detail/ros_can_motor_tgt__type_support.cpp
+[15.926s] -- Installing: /home/piusr/92032_CAN/RosMsg/install/rosmsg/include/rosmsg/rosmsg/msg/detail/motor_input_msg__type_support.cpp
+[15.926s] -- Installing: /home/piusr/92032_CAN/RosMsg/install/rosmsg/include/rosmsg/rosmsg/msg/detail/ros_can_motor_sta__rosidl_typesupport_introspection_cpp.hpp
+[15.926s] -- Installing: /home/piusr/92032_CAN/RosMsg/install/rosmsg/include/rosmsg/rosmsg/msg/detail/ros_can_motor_tgt__rosidl_typesupport_introspection_cpp.hpp
+[15.927s] -- Installing: /home/piusr/92032_CAN/RosMsg/install/rosmsg/include/rosmsg/rosmsg/msg/detail/motor_output_msg__rosidl_typesupport_introspection_cpp.hpp
+[15.927s] -- Installing: /home/piusr/92032_CAN/RosMsg/install/rosmsg/include/rosmsg/rosmsg/msg/detail/ros_can_imu_msg__rosidl_typesupport_introspection_cpp.hpp
+[15.927s] -- Installing: /home/piusr/92032_CAN/RosMsg/install/rosmsg/include/rosmsg/rosmsg/msg/detail/motor_output_msg__type_support.cpp
+[15.927s] -- Installing: /home/piusr/92032_CAN/RosMsg/install/rosmsg/include/rosmsg/rosmsg/msg/detail/ros_can_imu_msg__type_support.cpp
+[15.927s] -- Installing: /home/piusr/92032_CAN/RosMsg/install/rosmsg/include/rosmsg/rosmsg/msg/detail/ros_can_motor_sta__type_support.cpp
+[15.927s] -- Installing: /home/piusr/92032_CAN/RosMsg/install/rosmsg/lib/librosmsg__rosidl_typesupport_introspection_cpp.so
+[15.928s] -- Set non-toolchain portion of runtime path of "/home/piusr/92032_CAN/RosMsg/install/rosmsg/lib/librosmsg__rosidl_typesupport_introspection_cpp.so" to ""
+[15.928s] -- Installing: /home/piusr/92032_CAN/RosMsg/install/rosmsg/lib/librosmsg__rosidl_typesupport_cpp.so
+[15.929s] -- Set non-toolchain portion of runtime path of "/home/piusr/92032_CAN/RosMsg/install/rosmsg/lib/librosmsg__rosidl_typesupport_cpp.so" to ""
+[15.929s] -- Installing: /home/piusr/92032_CAN/RosMsg/install/rosmsg/share/rosmsg/environment/pythonpath.sh
+[15.929s] -- Installing: /home/piusr/92032_CAN/RosMsg/install/rosmsg/share/rosmsg/environment/pythonpath.dsv
+[15.929s] -- Installing: /home/piusr/92032_CAN/RosMsg/install/rosmsg/lib/python3.12/site-packages/rosmsg-0.0.0-py3.12.egg-info
+[15.929s] -- Installing: /home/piusr/92032_CAN/RosMsg/install/rosmsg/lib/python3.12/site-packages/rosmsg-0.0.0-py3.12.egg-info/dependency_links.txt
+[15.929s] -- Installing: /home/piusr/92032_CAN/RosMsg/install/rosmsg/lib/python3.12/site-packages/rosmsg-0.0.0-py3.12.egg-info/top_level.txt
+[15.930s] -- Installing: /home/piusr/92032_CAN/RosMsg/install/rosmsg/lib/python3.12/site-packages/rosmsg-0.0.0-py3.12.egg-info/SOURCES.txt
+[15.930s] -- Installing: /home/piusr/92032_CAN/RosMsg/install/rosmsg/lib/python3.12/site-packages/rosmsg-0.0.0-py3.12.egg-info/PKG-INFO
+[15.930s] -- Installing: /home/piusr/92032_CAN/RosMsg/install/rosmsg/lib/python3.12/site-packages/rosmsg
+[15.930s] -- Installing: /home/piusr/92032_CAN/RosMsg/install/rosmsg/lib/python3.12/site-packages/rosmsg/_rosmsg_s.ep.rosidl_typesupport_introspection_c.c
+[15.930s] -- Installing: /home/piusr/92032_CAN/RosMsg/install/rosmsg/lib/python3.12/site-packages/rosmsg/rosmsg_s__rosidl_typesupport_fastrtps_c.so
+[15.930s] -- Installing: /home/piusr/92032_CAN/RosMsg/install/rosmsg/lib/python3.12/site-packages/rosmsg/_rosmsg_s.ep.rosidl_typesupport_fastrtps_c.c
+[15.931s] -- Installing: /home/piusr/92032_CAN/RosMsg/install/rosmsg/lib/python3.12/site-packages/rosmsg/msg
+[15.931s] -- Installing: /home/piusr/92032_CAN/RosMsg/install/rosmsg/lib/python3.12/site-packages/rosmsg/msg/_ros_can_motor_tgt_s.c
+[15.931s] -- Installing: /home/piusr/92032_CAN/RosMsg/install/rosmsg/lib/python3.12/site-packages/rosmsg/msg/_ros_can_imu_msg_s.c
+[15.931s] -- Installing: /home/piusr/92032_CAN/RosMsg/install/rosmsg/lib/python3.12/site-packages/rosmsg/msg/_motor_input_msg.py
+[15.931s] -- Installing: /home/piusr/92032_CAN/RosMsg/install/rosmsg/lib/python3.12/site-packages/rosmsg/msg/_motor_input_msg_s.c
+[15.931s] -- Installing: /home/piusr/92032_CAN/RosMsg/install/rosmsg/lib/python3.12/site-packages/rosmsg/msg/_motor_output_msg_s.c
+[15.931s] -- Installing: /home/piusr/92032_CAN/RosMsg/install/rosmsg/lib/python3.12/site-packages/rosmsg/msg/_ros_can_motor_sta.py
+[15.932s] -- Installing: /home/piusr/92032_CAN/RosMsg/install/rosmsg/lib/python3.12/site-packages/rosmsg/msg/__init__.py
+[15.932s] -- Installing: /home/piusr/92032_CAN/RosMsg/install/rosmsg/lib/python3.12/site-packages/rosmsg/msg/_motor_output_msg.py
+[15.932s] -- Installing: /home/piusr/92032_CAN/RosMsg/install/rosmsg/lib/python3.12/site-packages/rosmsg/msg/_ros_can_motor_tgt.py
+[15.932s] -- Installing: /home/piusr/92032_CAN/RosMsg/install/rosmsg/lib/python3.12/site-packages/rosmsg/msg/_ros_can_motor_sta_s.c
+[15.932s] -- Installing: /home/piusr/92032_CAN/RosMsg/install/rosmsg/lib/python3.12/site-packages/rosmsg/msg/_ros_can_imu_msg.py
+[15.932s] -- Installing: /home/piusr/92032_CAN/RosMsg/install/rosmsg/lib/python3.12/site-packages/rosmsg/__init__.py
+[15.932s] -- Installing: /home/piusr/92032_CAN/RosMsg/install/rosmsg/lib/python3.12/site-packages/rosmsg/rosmsg_s__rosidl_typesupport_c.so
+[15.933s] -- Installing: /home/piusr/92032_CAN/RosMsg/install/rosmsg/lib/python3.12/site-packages/rosmsg/_rosmsg_s.ep.rosidl_typesupport_c.c
+[15.933s] -- Installing: /home/piusr/92032_CAN/RosMsg/install/rosmsg/lib/python3.12/site-packages/rosmsg/rosmsg_s__rosidl_typesupport_introspection_c.so
+[15.997s] Listing '/home/piusr/92032_CAN/RosMsg/install/rosmsg/lib/python3.12/site-packages/rosmsg'...
+[15.998s] Compiling '/home/piusr/92032_CAN/RosMsg/install/rosmsg/lib/python3.12/site-packages/rosmsg/__init__.py'...
+[15.999s] Listing '/home/piusr/92032_CAN/RosMsg/install/rosmsg/lib/python3.12/site-packages/rosmsg/msg'...
+[15.999s] Compiling '/home/piusr/92032_CAN/RosMsg/install/rosmsg/lib/python3.12/site-packages/rosmsg/msg/__init__.py'...
+[16.000s] Compiling '/home/piusr/92032_CAN/RosMsg/install/rosmsg/lib/python3.12/site-packages/rosmsg/msg/_motor_input_msg.py'...
+[16.001s] Compiling '/home/piusr/92032_CAN/RosMsg/install/rosmsg/lib/python3.12/site-packages/rosmsg/msg/_motor_output_msg.py'...
+[16.001s] Compiling '/home/piusr/92032_CAN/RosMsg/install/rosmsg/lib/python3.12/site-packages/rosmsg/msg/_ros_can_imu_msg.py'...
+[16.001s] Compiling '/home/piusr/92032_CAN/RosMsg/install/rosmsg/lib/python3.12/site-packages/rosmsg/msg/_ros_can_motor_sta.py'...
+[16.001s] Compiling '/home/piusr/92032_CAN/RosMsg/install/rosmsg/lib/python3.12/site-packages/rosmsg/msg/_ros_can_motor_tgt.py'...
+[16.017s] -- Installing: /home/piusr/92032_CAN/RosMsg/install/rosmsg/lib/python3.12/site-packages/rosmsg/rosmsg_s__rosidl_typesupport_fastrtps_c.so
+[16.017s] -- Set non-toolchain portion of runtime path of "/home/piusr/92032_CAN/RosMsg/install/rosmsg/lib/python3.12/site-packages/rosmsg/rosmsg_s__rosidl_typesupport_fastrtps_c.so" to ""
+[16.017s] -- Installing: /home/piusr/92032_CAN/RosMsg/install/rosmsg/lib/python3.12/site-packages/rosmsg/rosmsg_s__rosidl_typesupport_introspection_c.so
+[16.018s] -- Set non-toolchain portion of runtime path of "/home/piusr/92032_CAN/RosMsg/install/rosmsg/lib/python3.12/site-packages/rosmsg/rosmsg_s__rosidl_typesupport_introspection_c.so" to ""
+[16.018s] -- Installing: /home/piusr/92032_CAN/RosMsg/install/rosmsg/lib/python3.12/site-packages/rosmsg/rosmsg_s__rosidl_typesupport_c.so
+[16.019s] -- Set non-toolchain portion of runtime path of "/home/piusr/92032_CAN/RosMsg/install/rosmsg/lib/python3.12/site-packages/rosmsg/rosmsg_s__rosidl_typesupport_c.so" to ""
+[16.019s] -- Installing: /home/piusr/92032_CAN/RosMsg/install/rosmsg/lib/librosmsg__rosidl_generator_py.so
+[16.019s] -- Set non-toolchain portion of runtime path of "/home/piusr/92032_CAN/RosMsg/install/rosmsg/lib/librosmsg__rosidl_generator_py.so" to ""
+[16.020s] -- Installing: /home/piusr/92032_CAN/RosMsg/install/rosmsg/share/rosmsg/msg/RosCanMotorSta.idl
+[16.020s] -- Installing: /home/piusr/92032_CAN/RosMsg/install/rosmsg/share/rosmsg/msg/RosCanMotorTgt.idl
+[16.020s] -- Installing: /home/piusr/92032_CAN/RosMsg/install/rosmsg/share/rosmsg/msg/RosCanImuMsg.idl
+[16.020s] -- Installing: /home/piusr/92032_CAN/RosMsg/install/rosmsg/share/rosmsg/msg/MotorInputMsg.idl
+[16.020s] -- Installing: /home/piusr/92032_CAN/RosMsg/install/rosmsg/share/rosmsg/msg/MotorOutputMsg.idl
+[16.020s] -- Installing: /home/piusr/92032_CAN/RosMsg/install/rosmsg/share/rosmsg/msg/RosCanMotorSta.msg
+[16.021s] -- Installing: /home/piusr/92032_CAN/RosMsg/install/rosmsg/share/rosmsg/msg/RosCanMotorTgt.msg
+[16.021s] -- Installing: /home/piusr/92032_CAN/RosMsg/install/rosmsg/share/rosmsg/msg/RosCanImuMsg.msg
+[16.021s] -- Installing: /home/piusr/92032_CAN/RosMsg/install/rosmsg/share/rosmsg/msg/MotorInputMsg.msg
+[16.021s] -- Installing: /home/piusr/92032_CAN/RosMsg/install/rosmsg/share/rosmsg/msg/MotorOutputMsg.msg
+[16.021s] -- Installing: /home/piusr/92032_CAN/RosMsg/install/rosmsg/share/ament_index/resource_index/package_run_dependencies/rosmsg
+[16.022s] -- Installing: /home/piusr/92032_CAN/RosMsg/install/rosmsg/share/ament_index/resource_index/parent_prefix_path/rosmsg
+[16.022s] -- Installing: /home/piusr/92032_CAN/RosMsg/install/rosmsg/share/rosmsg/environment/ament_prefix_path.sh
+[16.022s] -- Installing: /home/piusr/92032_CAN/RosMsg/install/rosmsg/share/rosmsg/environment/ament_prefix_path.dsv
+[16.022s] -- Installing: /home/piusr/92032_CAN/RosMsg/install/rosmsg/share/rosmsg/environment/path.sh
+[16.022s] -- Installing: /home/piusr/92032_CAN/RosMsg/install/rosmsg/share/rosmsg/environment/path.dsv
+[16.022s] -- Installing: /home/piusr/92032_CAN/RosMsg/install/rosmsg/share/rosmsg/local_setup.bash
+[16.023s] -- Installing: /home/piusr/92032_CAN/RosMsg/install/rosmsg/share/rosmsg/local_setup.sh
+[16.023s] -- Installing: /home/piusr/92032_CAN/RosMsg/install/rosmsg/share/rosmsg/local_setup.zsh
+[16.023s] -- Installing: /home/piusr/92032_CAN/RosMsg/install/rosmsg/share/rosmsg/local_setup.dsv
+[16.023s] -- Installing: /home/piusr/92032_CAN/RosMsg/install/rosmsg/share/rosmsg/package.dsv
+[16.023s] -- Installing: /home/piusr/92032_CAN/RosMsg/install/rosmsg/share/ament_index/resource_index/packages/rosmsg
+[16.024s] -- Installing: /home/piusr/92032_CAN/RosMsg/install/rosmsg/share/rosmsg/cmake/export_rosmsg__rosidl_generator_cExport.cmake
+[16.024s] -- Installing: /home/piusr/92032_CAN/RosMsg/install/rosmsg/share/rosmsg/cmake/export_rosmsg__rosidl_generator_cExport-noconfig.cmake
+[16.024s] -- Installing: /home/piusr/92032_CAN/RosMsg/install/rosmsg/share/rosmsg/cmake/export_rosmsg__rosidl_typesupport_fastrtps_cExport.cmake
+[16.025s] -- Installing: /home/piusr/92032_CAN/RosMsg/install/rosmsg/share/rosmsg/cmake/export_rosmsg__rosidl_typesupport_fastrtps_cExport-noconfig.cmake
+[16.025s] -- Installing: /home/piusr/92032_CAN/RosMsg/install/rosmsg/share/rosmsg/cmake/export_rosmsg__rosidl_generator_cppExport.cmake
+[16.025s] -- Installing: /home/piusr/92032_CAN/RosMsg/install/rosmsg/share/rosmsg/cmake/export_rosmsg__rosidl_typesupport_fastrtps_cppExport.cmake
+[16.025s] -- Installing: /home/piusr/92032_CAN/RosMsg/install/rosmsg/share/rosmsg/cmake/export_rosmsg__rosidl_typesupport_fastrtps_cppExport-noconfig.cmake
+[16.025s] -- Installing: /home/piusr/92032_CAN/RosMsg/install/rosmsg/share/rosmsg/cmake/rosmsg__rosidl_typesupport_introspection_cExport.cmake
+[16.026s] -- Installing: /home/piusr/92032_CAN/RosMsg/install/rosmsg/share/rosmsg/cmake/rosmsg__rosidl_typesupport_introspection_cExport-noconfig.cmake
+[16.026s] -- Installing: /home/piusr/92032_CAN/RosMsg/install/rosmsg/share/rosmsg/cmake/rosmsg__rosidl_typesupport_cExport.cmake
+[16.026s] -- Installing: /home/piusr/92032_CAN/RosMsg/install/rosmsg/share/rosmsg/cmake/rosmsg__rosidl_typesupport_cExport-noconfig.cmake
+[16.026s] -- Installing: /home/piusr/92032_CAN/RosMsg/install/rosmsg/share/rosmsg/cmake/rosmsg__rosidl_typesupport_introspection_cppExport.cmake
+[16.027s] -- Installing: /home/piusr/92032_CAN/RosMsg/install/rosmsg/share/rosmsg/cmake/rosmsg__rosidl_typesupport_introspection_cppExport-noconfig.cmake
+[16.027s] -- Installing: /home/piusr/92032_CAN/RosMsg/install/rosmsg/share/rosmsg/cmake/rosmsg__rosidl_typesupport_cppExport.cmake
+[16.027s] -- Installing: /home/piusr/92032_CAN/RosMsg/install/rosmsg/share/rosmsg/cmake/rosmsg__rosidl_typesupport_cppExport-noconfig.cmake
+[16.027s] -- Installing: /home/piusr/92032_CAN/RosMsg/install/rosmsg/share/rosmsg/cmake/export_rosmsg__rosidl_generator_pyExport.cmake
+[16.028s] -- Installing: /home/piusr/92032_CAN/RosMsg/install/rosmsg/share/rosmsg/cmake/export_rosmsg__rosidl_generator_pyExport-noconfig.cmake
+[16.028s] -- Installing: /home/piusr/92032_CAN/RosMsg/install/rosmsg/share/rosmsg/cmake/rosidl_cmake-extras.cmake
+[16.028s] -- Installing: /home/piusr/92032_CAN/RosMsg/install/rosmsg/share/rosmsg/cmake/ament_cmake_export_include_directories-extras.cmake
+[16.028s] -- Installing: /home/piusr/92032_CAN/RosMsg/install/rosmsg/share/rosmsg/cmake/ament_cmake_export_libraries-extras.cmake
+[16.028s] -- Installing: /home/piusr/92032_CAN/RosMsg/install/rosmsg/share/rosmsg/cmake/ament_cmake_export_targets-extras.cmake
+[16.029s] -- Installing: /home/piusr/92032_CAN/RosMsg/install/rosmsg/share/rosmsg/cmake/rosidl_cmake_export_typesupport_targets-extras.cmake
+[16.029s] -- Installing: /home/piusr/92032_CAN/RosMsg/install/rosmsg/share/rosmsg/cmake/ament_cmake_export_dependencies-extras.cmake
+[16.029s] -- Installing: /home/piusr/92032_CAN/RosMsg/install/rosmsg/share/rosmsg/cmake/rosidl_cmake_export_typesupport_libraries-extras.cmake
+[16.029s] -- Installing: /home/piusr/92032_CAN/RosMsg/install/rosmsg/share/rosmsg/cmake/rosmsgConfig.cmake
+[16.029s] -- Installing: /home/piusr/92032_CAN/RosMsg/install/rosmsg/share/rosmsg/cmake/rosmsgConfig-version.cmake
+[16.030s] -- Installing: /home/piusr/92032_CAN/RosMsg/install/rosmsg/share/rosmsg/package.xml
+[16.034s] Invoked command in '/home/piusr/92032_CAN/RosMsg/build/rosmsg' returned '0': CMAKE_PREFIX_PATH=${CMAKE_PREFIX_PATH}:/opt/ros/jazzy DEBUGINFOD_URLS=https://debuginfod.ubuntu.com /usr/bin/cmake --install /home/piusr/92032_CAN/RosMsg/build/rosmsg

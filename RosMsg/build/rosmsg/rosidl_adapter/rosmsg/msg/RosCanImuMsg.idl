@@ -1,0 +1,30 @@
+// generated from rosidl_adapter/resource/msg.idl.em
+// with input from rosmsg/msg/RosCanImuMsg.msg
+// generated code does not contain a copyright notice
+
+
+module rosmsg {
+  module msg {
+    struct RosCanImuMsg {
+      float qurd_x;
+
+      float qurd_y;
+
+      float qurd_z;
+
+      float qurd_w;
+
+      float gravity_x;
+
+      float gravity_y;
+
+      float gravity_z;
+
+      float ang_roll;
+
+      float ang_yaw;
+
+      float ang_pitch;
+    };
+  };
+};

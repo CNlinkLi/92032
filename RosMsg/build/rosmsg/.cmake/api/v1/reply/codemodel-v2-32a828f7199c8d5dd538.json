@@ -1,0 +1,242 @@
+{
+	"configurations" : 
+	[
+		{
+			"directories" : 
+			[
+				{
+					"build" : ".",
+					"childIndexes" : 
+					[
+						1
+					],
+					"hasInstallRule" : true,
+					"jsonFile" : "directory-.-9706c9df8dc2a9b8f0f9.json",
+					"minimumCMakeVersion" : 
+					{
+						"string" : "3.20"
+					},
+					"projectIndex" : 0,
+					"source" : ".",
+					"targetIndexes" : 
+					[
+						0,
+						1,
+						2,
+						3,
+						5,
+						6,
+						7,
+						8,
+						9,
+						10,
+						11,
+						12,
+						13,
+						14,
+						15,
+						16,
+						17,
+						18
+					]
+				},
+				{
+					"build" : "rosmsg__py",
+					"jsonFile" : "directory-rosmsg__py-1ceb393c187a7b8d2a9d.json",
+					"minimumCMakeVersion" : 
+					{
+						"string" : "3.20"
+					},
+					"parentIndex" : 0,
+					"projectIndex" : 0,
+					"source" : "/home/piusr/92032_CAN/RosMsg/build/rosmsg/rosmsg__py",
+					"targetIndexes" : 
+					[
+						4
+					]
+				}
+			],
+			"name" : "",
+			"projects" : 
+			[
+				{
+					"directoryIndexes" : 
+					[
+						0,
+						1
+					],
+					"name" : "rosmsg",
+					"targetIndexes" : 
+					[
+						0,
+						1,
+						2,
+						3,
+						4,
+						5,
+						6,
+						7,
+						8,
+						9,
+						10,
+						11,
+						12,
+						13,
+						14,
+						15,
+						16,
+						17,
+						18
+					]
+				}
+			],
+			"targets" : 
+			[
+				{
+					"directoryIndex" : 0,
+					"id" : "ament_cmake_python_build_rosmsg_egg::@6890427a1f51a3e7e1df",
+					"jsonFile" : "target-ament_cmake_python_build_rosmsg_egg-3a18ee6e432e2df4e1b3.json",
+					"name" : "ament_cmake_python_build_rosmsg_egg",
+					"projectIndex" : 0
+				},
+				{
+					"directoryIndex" : 0,
+					"id" : "ament_cmake_python_copy_rosmsg::@6890427a1f51a3e7e1df",
+					"jsonFile" : "target-ament_cmake_python_copy_rosmsg-bedbc759abda82249a30.json",
+					"name" : "ament_cmake_python_copy_rosmsg",
+					"projectIndex" : 0
+				},
+				{
+					"directoryIndex" : 0,
+					"id" : "rosmsg::@6890427a1f51a3e7e1df",
+					"jsonFile" : "target-rosmsg-29071d0b3c55f521dc49.json",
+					"name" : "rosmsg",
+					"projectIndex" : 0
+				},
+				{
+					"directoryIndex" : 0,
+					"id" : "rosmsg__cpp::@6890427a1f51a3e7e1df",
+					"jsonFile" : "target-rosmsg__cpp-a24d12f58a1393ada198.json",
+					"name" : "rosmsg__cpp",
+					"projectIndex" : 0
+				},
+				{
+					"directoryIndex" : 1,
+					"id" : "rosmsg__py::@dd0cb5700ad11e07b806",
+					"jsonFile" : "target-rosmsg__py-ba51de16defeedb27605.json",
+					"name" : "rosmsg__py",
+					"projectIndex" : 0
+				},
+				{
+					"directoryIndex" : 0,
+					"id" : "rosmsg__rosidl_generator_c::@6890427a1f51a3e7e1df",
+					"jsonFile" : "target-rosmsg__rosidl_generator_c-96de81c8aa65334736d6.json",
+					"name" : "rosmsg__rosidl_generator_c",
+					"projectIndex" : 0
+				},
+				{
+					"directoryIndex" : 0,
+					"id" : "rosmsg__rosidl_generator_py::@6890427a1f51a3e7e1df",
+					"jsonFile" : "target-rosmsg__rosidl_generator_py-66d2c1202d5a4087b634.json",
+					"name" : "rosmsg__rosidl_generator_py",
+					"projectIndex" : 0
+				},
+				{
+					"directoryIndex" : 0,
+					"id" : "rosmsg__rosidl_generator_type_description::@6890427a1f51a3e7e1df",
+					"jsonFile" : "target-rosmsg__rosidl_generator_type_description-9fef71e574b7e9e8b39e.json",
+					"name" : "rosmsg__rosidl_generator_type_description",
+					"projectIndex" : 0
+				},
+				{
+					"directoryIndex" : 0,
+					"id" : "rosmsg__rosidl_typesupport_c::@6890427a1f51a3e7e1df",
+					"jsonFile" : "target-rosmsg__rosidl_typesupport_c-e28d6085918dd2cb1bb4.json",
+					"name" : "rosmsg__rosidl_typesupport_c",
+					"projectIndex" : 0
+				},
+				{
+					"directoryIndex" : 0,
+					"id" : "rosmsg__rosidl_typesupport_cpp::@6890427a1f51a3e7e1df",
+					"jsonFile" : "target-rosmsg__rosidl_typesupport_cpp-d24bdbbef1e17ad97cfb.json",
+					"name" : "rosmsg__rosidl_typesupport_cpp",
+					"projectIndex" : 0
+				},
+				{
+					"directoryIndex" : 0,
+					"id" : "rosmsg__rosidl_typesupport_fastrtps_c::@6890427a1f51a3e7e1df",
+					"jsonFile" : "target-rosmsg__rosidl_typesupport_fastrtps_c-933a9218116076bfbd31.json",
+					"name" : "rosmsg__rosidl_typesupport_fastrtps_c",
+					"projectIndex" : 0
+				},
+				{
+					"directoryIndex" : 0,
+					"id" : "rosmsg__rosidl_typesupport_fastrtps_cpp::@6890427a1f51a3e7e1df",
+					"jsonFile" : "target-rosmsg__rosidl_typesupport_fastrtps_cpp-1474c6d0f5991dda950e.json",
+					"name" : "rosmsg__rosidl_typesupport_fastrtps_cpp",
+					"projectIndex" : 0
+				},
+				{
+					"directoryIndex" : 0,
+					"id" : "rosmsg__rosidl_typesupport_introspection_c::@6890427a1f51a3e7e1df",
+					"jsonFile" : "target-rosmsg__rosidl_typesupport_introspection_c-13e4796786a41016cad1.json",
+					"name" : "rosmsg__rosidl_typesupport_introspection_c",
+					"projectIndex" : 0
+				},
+				{
+					"directoryIndex" : 0,
+					"id" : "rosmsg__rosidl_typesupport_introspection_cpp::@6890427a1f51a3e7e1df",
+					"jsonFile" : "target-rosmsg__rosidl_typesupport_introspection_cpp-0121465598ce1fc0b520.json",
+					"name" : "rosmsg__rosidl_typesupport_introspection_cpp",
+					"projectIndex" : 0
+				},
+				{
+					"directoryIndex" : 0,
+					"id" : "rosmsg_s__rosidl_typesupport_c::@6890427a1f51a3e7e1df",
+					"jsonFile" : "target-rosmsg_s__rosidl_typesupport_c-d7575acd3ddd8a32eea4.json",
+					"name" : "rosmsg_s__rosidl_typesupport_c",
+					"projectIndex" : 0
+				},
+				{
+					"directoryIndex" : 0,
+					"id" : "rosmsg_s__rosidl_typesupport_fastrtps_c::@6890427a1f51a3e7e1df",
+					"jsonFile" : "target-rosmsg_s__rosidl_typesupport_fastrtps_c-b64b733b060dbe9636a5.json",
+					"name" : "rosmsg_s__rosidl_typesupport_fastrtps_c",
+					"projectIndex" : 0
+				},
+				{
+					"directoryIndex" : 0,
+					"id" : "rosmsg_s__rosidl_typesupport_introspection_c::@6890427a1f51a3e7e1df",
+					"jsonFile" : "target-rosmsg_s__rosidl_typesupport_introspection_c-119029c9beccb0eb98c3.json",
+					"name" : "rosmsg_s__rosidl_typesupport_introspection_c",
+					"projectIndex" : 0
+				},
+				{
+					"directoryIndex" : 0,
+					"id" : "rosmsg_uninstall::@6890427a1f51a3e7e1df",
+					"jsonFile" : "target-rosmsg_uninstall-a98e9821d542dba2370e.json",
+					"name" : "rosmsg_uninstall",
+					"projectIndex" : 0
+				},
+				{
+					"directoryIndex" : 0,
+					"id" : "uninstall::@6890427a1f51a3e7e1df",
+					"jsonFile" : "target-uninstall-43b55ce0e4be8d515ba6.json",
+					"name" : "uninstall",
+					"projectIndex" : 0
+				}
+			]
+		}
+	],
+	"kind" : "codemodel",
+	"paths" : 
+	{
+		"build" : "/home/piusr/92032_CAN/RosMsg/build/rosmsg",
+		"source" : "/home/piusr/92032_CAN/RosMsg/rosmsg"
+	},
+	"version" : 
+	{
+		"major" : 2,
+		"minor" : 6
+	}
+}

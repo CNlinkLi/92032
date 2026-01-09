@@ -1,0 +1,25 @@
+{
+  "package_name": "rosmsg",
+  "output_dir": "/home/piusr/92032_CAN/RosMsg/build/rosmsg/rosidl_typesupport_cpp/rosmsg",
+  "template_dir": "/opt/ros/jazzy/share/rosidl_typesupport_cpp/resource",
+  "idl_tuples": [
+    "/home/piusr/92032_CAN/RosMsg/build/rosmsg/rosidl_adapter/rosmsg:msg/RosCanMotorSta.idl",
+    "/home/piusr/92032_CAN/RosMsg/build/rosmsg/rosidl_adapter/rosmsg:msg/RosCanMotorTgt.idl",
+    "/home/piusr/92032_CAN/RosMsg/build/rosmsg/rosidl_adapter/rosmsg:msg/RosCanImuMsg.idl",
+    "/home/piusr/92032_CAN/RosMsg/build/rosmsg/rosidl_adapter/rosmsg:msg/MotorInputMsg.idl",
+    "/home/piusr/92032_CAN/RosMsg/build/rosmsg/rosidl_adapter/rosmsg:msg/MotorOutputMsg.idl"
+  ],
+  "target_dependencies": [
+    "/opt/ros/jazzy/lib/rosidl_typesupport_cpp/rosidl_typesupport_cpp",
+    "/opt/ros/jazzy/lib/python3.12/site-packages/rosidl_typesupport_cpp/__init__.py",
+    "/opt/ros/jazzy/share/rosidl_typesupport_cpp/resource/action__type_support.cpp.em",
+    "/opt/ros/jazzy/share/rosidl_typesupport_cpp/resource/idl__type_support.cpp.em",
+    "/opt/ros/jazzy/share/rosidl_typesupport_cpp/resource/msg__type_support.cpp.em",
+    "/opt/ros/jazzy/share/rosidl_typesupport_cpp/resource/srv__type_support.cpp.em",
+    "/home/piusr/92032_CAN/RosMsg/build/rosmsg/rosidl_adapter/rosmsg/msg/RosCanMotorSta.idl",
+    "/home/piusr/92032_CAN/RosMsg/build/rosmsg/rosidl_adapter/rosmsg/msg/RosCanMotorTgt.idl",
+    "/home/piusr/92032_CAN/RosMsg/build/rosmsg/rosidl_adapter/rosmsg/msg/RosCanImuMsg.idl",
+    "/home/piusr/92032_CAN/RosMsg/build/rosmsg/rosidl_adapter/rosmsg/msg/MotorInputMsg.idl",
+    "/home/piusr/92032_CAN/RosMsg/build/rosmsg/rosidl_adapter/rosmsg/msg/MotorOutputMsg.idl"
+  ]
+}

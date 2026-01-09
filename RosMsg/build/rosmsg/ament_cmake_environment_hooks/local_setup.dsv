@@ -1,0 +1,4 @@
+source;share/rosmsg/environment/ament_prefix_path.sh
+source;share/rosmsg/environment/library_path.sh
+source;share/rosmsg/environment/path.sh
+source;share/rosmsg/environment/pythonpath.sh

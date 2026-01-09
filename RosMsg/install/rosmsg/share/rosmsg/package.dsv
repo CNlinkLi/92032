@@ -1,0 +1,14 @@
+source;share/rosmsg/hook/cmake_prefix_path.ps1
+source;share/rosmsg/hook/cmake_prefix_path.dsv
+source;share/rosmsg/hook/cmake_prefix_path.sh
+source;share/rosmsg/hook/ld_library_path_lib.ps1
+source;share/rosmsg/hook/ld_library_path_lib.dsv
+source;share/rosmsg/hook/ld_library_path_lib.sh
+source;share/rosmsg/hook/pythonpath.ps1
+source;share/rosmsg/hook/pythonpath.dsv
+source;share/rosmsg/hook/pythonpath.sh
+source;share/rosmsg/local_setup.bash
+source;share/rosmsg/local_setup.dsv
+source;share/rosmsg/local_setup.ps1
+source;share/rosmsg/local_setup.sh
+source;share/rosmsg/local_setup.zsh

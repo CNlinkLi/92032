@@ -1,0 +1,256 @@
+[0.000000] (-) TimerEvent: {}
+[0.000456] (rosmsg) JobQueued: {'identifier': 'rosmsg', 'dependencies': OrderedDict()}
+[0.001448] (rosmsg) JobStarted: {'identifier': 'rosmsg'}
+[0.020086] (rosmsg) JobProgress: {'identifier': 'rosmsg', 'progress': 'cmake'}
+[0.021399] (rosmsg) JobProgress: {'identifier': 'rosmsg', 'progress': 'build'}
+[0.022225] (rosmsg) Command: {'cmd': ['/usr/bin/cmake', '--build', '/home/piusr/92032_CAN/RosMsg/build/rosmsg', '--', '-j4', '-l4'], 'cwd': '/home/piusr/92032_CAN/RosMsg/build/rosmsg', 'env': OrderedDict({'LESSOPEN': '| /usr/bin/lesspipe %s', 'LANGUAGE': 'zh_CN:en_US:en', 'USER': 'piusr', 'LC_TIME': 'zh_CN.UTF-8', 'XDG_SESSION_TYPE': 'wayland', 'SHLVL': '1', 'LD_LIBRARY_PATH': '/home/piusr/92032_CAN/RosMsg/install/rosmsg/lib:/home/piusr/92032_Bluetooth/RosMsg/install/rosmsg/lib:/opt/ros/jazzy/opt/rviz_ogre_vendor/lib:/opt/ros/jazzy/lib/aarch64-linux-gnu:/opt/ros/jazzy/opt/gz_math_vendor/lib:/opt/ros/jazzy/opt/gz_utils_vendor/lib:/opt/ros/jazzy/opt/gz_cmake_vendor/lib:/opt/ros/jazzy/lib', 'HOME': '/home/piusr', 'DESKTOP_SESSION': 'ubuntu', 'ROS_PYTHON_VERSION': '3', 'GNOME_SHELL_SESSION_MODE': 'ubuntu', 'GTK_MODULES': 'gail:atk-bridge', 'SDL_IM_MODULE': 'fcitx', 'LC_MONETARY': 'zh_CN.UTF-8', 'DBUS_STARTER_BUS_TYPE': 'session', 'SYSTEMD_EXEC_PID': '1719', 'GSM_SKIP_SSH_AGENT_WORKAROUND': 'true', 'DBUS_SESSION_BUS_ADDRESS': 'unix:path=/run/user/1000/bus,guid=b48211f9c2c9af0cbc404434695f1a0c', 'COLORTERM': 'truecolor', 'QT_QPA_PLATFORM_PLUGIN_PATH': '/usr/lib/aarch64-linux-gnu/qt6/plugins/platforms/:/usr/lib/aarch64-linux-gnu/qt5/plugins/platforms/', 'DEBUGINFOD_URLS': 'https://debuginfod.ubuntu.com', 'IM_CONFIG_PHASE': '1', 'WAYLAND_DISPLAY': 'wayland-0', 'COLCON_PREFIX_PATH': '/home/piusr/92032_CAN/RosMsg/install', 'ROS_DISTRO': 'jazzy', 'GTK_IM_MODULE': 'fcitx', 'LOGNAME': 'piusr', '_': '/usr/bin/colcon', 'ROS_VERSION': '2', 'MEMORY_PRESSURE_WATCH': '/sys/fs/cgroup/user.slice/user-1000.slice/user@1000.service/app.slice/app-gnome\\x2dsession\\x2dmanager.slice/gnome-session-manager@ubuntu.service/memory.pressure', 'XDG_SESSION_CLASS': 'user', 'USERNAME': 'piusr', 'TERM': 'xterm-256color', 'GNOME_DESKTOP_SESSION_ID': 'this-is-deprecated', 'PATH': '/opt/ros/jazzy/bin:/usr/local/sbin:/usr/local/bin:/usr/sbin:/usr/bin:/sbin:/bin:/usr/games:/usr/local/games:/snap/bin:/snap/bin', 'SESSION_MANAGER': 'local/piusr-desktop:@/tmp/.ICE-unix/1719,unix/piusr-desktop:/tmp/.ICE-unix/1719', 'PAPERSIZE': 'a4', 'XDG_MENU_PREFIX': 'gnome-', 'LC_ADDRESS': 'zh_CN.UTF-8', 'GNOME_TERMINAL_SCREEN': '/org/gnome/Terminal/screen/aa00e8b3_c740_45f1_924f_fea330a16c84', 'GNOME_SETUP_DISPLAY': ':1', 'XDG_RUNTIME_DIR': '/run/user/1000', 'DISPLAY': ':0', 'LANG': 'zh_CN.UTF-8', 'XDG_CURRENT_DESKTOP': 'ubuntu:GNOME', 'LC_TELEPHONE': 'zh_CN.UTF-8', 'XMODIFIERS': '@im=fcitx', 'XDG_SESSION_DESKTOP': 'ubuntu', 'XAUTHORITY': '/run/user/1000/.mutter-Xwaylandauth.UJBMI3', 'LS_COLORS': 'rs=0:di=01;34:ln=01;36:mh=00:pi=40;33:so=01;35:do=01;35:bd=40;33;01:cd=40;33;01:or=40;31;01:mi=00:su=37;41:sg=30;43:ca=00:tw=30;42:ow=34;42:st=37;44:ex=01;32:*.tar=01;31:*.tgz=01;31:*.arc=01;31:*.arj=01;31:*.taz=01;31:*.lha=01;31:*.lz4=01;31:*.lzh=01;31:*.lzma=01;31:*.tlz=01;31:*.txz=01;31:*.tzo=01;31:*.t7z=01;31:*.zip=01;31:*.z=01;31:*.dz=01;31:*.gz=01;31:*.lrz=01;31:*.lz=01;31:*.lzo=01;31:*.xz=01;31:*.zst=01;31:*.tzst=01;31:*.bz2=01;31:*.bz=01;31:*.tbz=01;31:*.tbz2=01;31:*.tz=01;31:*.deb=01;31:*.rpm=01;31:*.jar=01;31:*.war=01;31:*.ear=01;31:*.sar=01;31:*.rar=01;31:*.alz=01;31:*.ace=01;31:*.zoo=01;31:*.cpio=01;31:*.7z=01;31:*.rz=01;31:*.cab=01;31:*.wim=01;31:*.swm=01;31:*.dwm=01;31:*.esd=01;31:*.avif=01;35:*.jpg=01;35:*.jpeg=01;35:*.mjpg=01;35:*.mjpeg=01;35:*.gif=01;35:*.bmp=01;35:*.pbm=01;35:*.pgm=01;35:*.ppm=01;35:*.tga=01;35:*.xbm=01;35:*.xpm=01;35:*.tif=01;35:*.tiff=01;35:*.png=01;35:*.svg=01;35:*.svgz=01;35:*.mng=01;35:*.pcx=01;35:*.mov=01;35:*.mpg=01;35:*.mpeg=01;35:*.m2v=01;35:*.mkv=01;35:*.webm=01;35:*.webp=01;35:*.ogm=01;35:*.mp4=01;35:*.m4v=01;35:*.mp4v=01;35:*.vob=01;35:*.qt=01;35:*.nuv=01;35:*.wmv=01;35:*.asf=01;35:*.rm=01;35:*.rmvb=01;35:*.flc=01;35:*.avi=01;35:*.fli=01;35:*.flv=01;35:*.gl=01;35:*.dl=01;35:*.xcf=01;35:*.xwd=01;35:*.yuv=01;35:*.cgm=01;35:*.emf=01;35:*.ogv=01;35:*.ogx=01;35:*.aac=00;36:*.au=00;36:*.flac=00;36:*.m4a=00;36:*.mid=00;36:*.midi=00;36:*.mka=00;36:*.mp3=00;36:*.mpc=00;36:*.ogg=00;36:*.ra=00;36:*.wav=00;36:*.oga=00;36:*.opus=00;36:*.spx=00;36:*.xspf=00;36:*~=00;90:*#=00;90:*.bak=00;90:*.crdownload=00;90:*.dpkg-dist=00;90:*.dpkg-new=00;90:*.dpkg-old=00;90:*.dpkg-tmp=00;90:*.old=00;90:*.orig=00;90:*.part=00;90:*.rej=00;90:*.rpmnew=00;90:*.rpmorig=00;90:*.rpmsave=00;90:*.swp=00;90:*.tmp=00;90:*.ucf-dist=00;90:*.ucf-new=00;90:*.ucf-old=00;90:', 'GNOME_TERMINAL_SERVICE': ':1.170', 'SSH_AUTH_SOCK': '/run/user/1000/keyring/ssh', 'AMENT_PREFIX_PATH': '/home/piusr/92032_CAN/RosMsg/install/rosmsg:/opt/ros/jazzy', 'SHELL': '/bin/bash', 'LC_NAME': 'zh_CN.UTF-8', 'QT_ACCESSIBILITY': '1', 'GDMSESSION': 'ubuntu', 'LESSCLOSE': '/usr/bin/lesspipe %s %s', 'LC_MEASUREMENT': 'zh_CN.UTF-8', 'LC_IDENTIFICATION': 'zh_CN.UTF-8', 'ROS_AUTOMATIC_DISCOVERY_RANGE': 'SUBNET', 'QT_IM_MODULE': 'fcitx', 'PWD': '/home/piusr/92032_CAN/RosMsg/build/rosmsg', 'XDG_CONFIG_DIRS': '/etc/xdg/xdg-ubuntu:/etc/xdg', 'CLUTTER_IM_MODULE': 'fcitx', 'DBUS_STARTER_ADDRESS': 'unix:path=/run/user/1000/bus,guid=b48211f9c2c9af0cbc404434695f1a0c', 'XDG_DATA_DIRS': '/usr/share/ubuntu:/usr/share/gnome:/usr/local/share/:/usr/share/:/var/lib/snapd/desktop', 'PYTHONPATH': '/home/piusr/92032_CAN/RosMsg/install/rosmsg/lib/python3.12/site-packages:/opt/ros/jazzy/lib/python3.12/site-packages', 'LC_NUMERIC': 'zh_CN.UTF-8', 'LC_PAPER': 'zh_CN.UTF-8', 'COLCON': '1', 'MEMORY_PRESSURE_WRITE': 'c29tZSAyMDAwMDAgMjAwMDAwMAA=', 'VTE_VERSION': '7600', 'CMAKE_PREFIX_PATH': '/home/piusr/92032_CAN/RosMsg/install/rosmsg:/opt/ros/jazzy/opt/gz_math_vendor:/opt/ros/jazzy/opt/gz_utils_vendor:/opt/ros/jazzy/opt/gz_cmake_vendor:/opt/ros/jazzy'}), 'shell': False}
+[0.099486] (-) TimerEvent: {}
+[0.134109] (rosmsg) StdoutLine: {'line': b'[  1%] Built target rosmsg__rosidl_generator_type_description\n'}
+[0.152955] (rosmsg) StdoutLine: {'line': b'[  1%] Built target ament_cmake_python_copy_rosmsg\n'}
+[0.174731] (rosmsg) StdoutLine: {'line': b'[  2%] Built target rosmsg__cpp\n'}
+[0.199678] (-) TimerEvent: {}
+[0.213098] (rosmsg) StdoutLine: {'line': b'[ 25%] Built target rosmsg__rosidl_generator_c\n'}
+[0.289891] (rosmsg) StdoutLine: {'line': b'[ 35%] Built target rosmsg__rosidl_typesupport_fastrtps_c\n'}
+[0.293546] (rosmsg) StdoutLine: {'line': b'[ 44%] Built target rosmsg__rosidl_typesupport_cpp\n'}
+[0.301957] (-) TimerEvent: {}
+[0.328649] (rosmsg) StdoutLine: {'line': b'[ 54%] Built target rosmsg__rosidl_typesupport_fastrtps_cpp\n'}
+[0.348153] (rosmsg) StdoutLine: {'line': b'[ 63%] Built target rosmsg__rosidl_typesupport_introspection_c\n'}
+[0.352973] (rosmsg) StdoutLine: {'line': b'[ 72%] Built target rosmsg__rosidl_typesupport_c\n'}
+[0.379122] (rosmsg) StdoutLine: {'line': b'[ 82%] Built target rosmsg__rosidl_typesupport_introspection_cpp\n'}
+[0.402062] (-) TimerEvent: {}
+[0.420079] (rosmsg) StdoutLine: {'line': b'[ 82%] Built target rosmsg\n'}
+[0.456138] (rosmsg) StdoutLine: {'line': b'[ 83%] Built target rosmsg__py\n'}
+[0.500959] (rosmsg) StdoutLine: {'line': b'[ 91%] Built target rosmsg__rosidl_generator_py\n'}
+[0.502132] (-) TimerEvent: {}
+[0.551133] (rosmsg) StdoutLine: {'line': b'[ 97%] Built target rosmsg_s__rosidl_typesupport_fastrtps_c\n'}
+[0.552931] (rosmsg) StdoutLine: {'line': b'[ 97%] Built target rosmsg_s__rosidl_typesupport_c\n'}
+[0.555469] (rosmsg) StdoutLine: {'line': b'[100%] Built target rosmsg_s__rosidl_typesupport_introspection_c\n'}
+[0.576353] (rosmsg) StdoutLine: {'line': b'running egg_info\n'}
+[0.600565] (rosmsg) StdoutLine: {'line': b'writing rosmsg.egg-info/PKG-INFO\n'}
+[0.600965] (rosmsg) StdoutLine: {'line': b'writing dependency_links to rosmsg.egg-info/dependency_links.txt\n'}
+[0.601777] (rosmsg) StdoutLine: {'line': b'writing top-level names to rosmsg.egg-info/top_level.txt\n'}
+[0.602195] (-) TimerEvent: {}
+[0.673970] (rosmsg) StdoutLine: {'line': b"reading manifest file 'rosmsg.egg-info/SOURCES.txt'\n"}
+[0.674737] (rosmsg) StdoutLine: {'line': b"writing manifest file 'rosmsg.egg-info/SOURCES.txt'\n"}
+[0.702327] (-) TimerEvent: {}
+[0.745015] (rosmsg) StdoutLine: {'line': b'[100%] Built target ament_cmake_python_build_rosmsg_egg\n'}
+[0.766751] (rosmsg) CommandEnded: {'returncode': 0}
+[0.767587] (rosmsg) JobProgress: {'identifier': 'rosmsg', 'progress': 'install'}
+[0.785304] (rosmsg) Command: {'cmd': ['/usr/bin/cmake', '--install', '/home/piusr/92032_CAN/RosMsg/build/rosmsg'], 'cwd': '/home/piusr/92032_CAN/RosMsg/build/rosmsg', 'env': OrderedDict({'LESSOPEN': '| /usr/bin/lesspipe %s', 'LANGUAGE': 'zh_CN:en_US:en', 'USER': 'piusr', 'LC_TIME': 'zh_CN.UTF-8', 'XDG_SESSION_TYPE': 'wayland', 'SHLVL': '1', 'LD_LIBRARY_PATH': '/home/piusr/92032_CAN/RosMsg/install/rosmsg/lib:/home/piusr/92032_Bluetooth/RosMsg/install/rosmsg/lib:/opt/ros/jazzy/opt/rviz_ogre_vendor/lib:/opt/ros/jazzy/lib/aarch64-linux-gnu:/opt/ros/jazzy/opt/gz_math_vendor/lib:/opt/ros/jazzy/opt/gz_utils_vendor/lib:/opt/ros/jazzy/opt/gz_cmake_vendor/lib:/opt/ros/jazzy/lib', 'HOME': '/home/piusr', 'DESKTOP_SESSION': 'ubuntu', 'ROS_PYTHON_VERSION': '3', 'GNOME_SHELL_SESSION_MODE': 'ubuntu', 'GTK_MODULES': 'gail:atk-bridge', 'SDL_IM_MODULE': 'fcitx', 'LC_MONETARY': 'zh_CN.UTF-8', 'DBUS_STARTER_BUS_TYPE': 'session', 'SYSTEMD_EXEC_PID': '1719', 'GSM_SKIP_SSH_AGENT_WORKAROUND': 'true', 'DBUS_SESSION_BUS_ADDRESS': 'unix:path=/run/user/1000/bus,guid=b48211f9c2c9af0cbc404434695f1a0c', 'COLORTERM': 'truecolor', 'QT_QPA_PLATFORM_PLUGIN_PATH': '/usr/lib/aarch64-linux-gnu/qt6/plugins/platforms/:/usr/lib/aarch64-linux-gnu/qt5/plugins/platforms/', 'DEBUGINFOD_URLS': 'https://debuginfod.ubuntu.com', 'IM_CONFIG_PHASE': '1', 'WAYLAND_DISPLAY': 'wayland-0', 'COLCON_PREFIX_PATH': '/home/piusr/92032_CAN/RosMsg/install', 'ROS_DISTRO': 'jazzy', 'GTK_IM_MODULE': 'fcitx', 'LOGNAME': 'piusr', '_': '/usr/bin/colcon', 'ROS_VERSION': '2', 'MEMORY_PRESSURE_WATCH': '/sys/fs/cgroup/user.slice/user-1000.slice/user@1000.service/app.slice/app-gnome\\x2dsession\\x2dmanager.slice/gnome-session-manager@ubuntu.service/memory.pressure', 'XDG_SESSION_CLASS': 'user', 'USERNAME': 'piusr', 'TERM': 'xterm-256color', 'GNOME_DESKTOP_SESSION_ID': 'this-is-deprecated', 'PATH': '/opt/ros/jazzy/bin:/usr/local/sbin:/usr/local/bin:/usr/sbin:/usr/bin:/sbin:/bin:/usr/games:/usr/local/games:/snap/bin:/snap/bin', 'SESSION_MANAGER': 'local/piusr-desktop:@/tmp/.ICE-unix/1719,unix/piusr-desktop:/tmp/.ICE-unix/1719', 'PAPERSIZE': 'a4', 'XDG_MENU_PREFIX': 'gnome-', 'LC_ADDRESS': 'zh_CN.UTF-8', 'GNOME_TERMINAL_SCREEN': '/org/gnome/Terminal/screen/aa00e8b3_c740_45f1_924f_fea330a16c84', 'GNOME_SETUP_DISPLAY': ':1', 'XDG_RUNTIME_DIR': '/run/user/1000', 'DISPLAY': ':0', 'LANG': 'zh_CN.UTF-8', 'XDG_CURRENT_DESKTOP': 'ubuntu:GNOME', 'LC_TELEPHONE': 'zh_CN.UTF-8', 'XMODIFIERS': '@im=fcitx', 'XDG_SESSION_DESKTOP': 'ubuntu', 'XAUTHORITY': '/run/user/1000/.mutter-Xwaylandauth.UJBMI3', 'LS_COLORS': 'rs=0:di=01;34:ln=01;36:mh=00:pi=40;33:so=01;35:do=01;35:bd=40;33;01:cd=40;33;01:or=40;31;01:mi=00:su=37;41:sg=30;43:ca=00:tw=30;42:ow=34;42:st=37;44:ex=01;32:*.tar=01;31:*.tgz=01;31:*.arc=01;31:*.arj=01;31:*.taz=01;31:*.lha=01;31:*.lz4=01;31:*.lzh=01;31:*.lzma=01;31:*.tlz=01;31:*.txz=01;31:*.tzo=01;31:*.t7z=01;31:*.zip=01;31:*.z=01;31:*.dz=01;31:*.gz=01;31:*.lrz=01;31:*.lz=01;31:*.lzo=01;31:*.xz=01;31:*.zst=01;31:*.tzst=01;31:*.bz2=01;31:*.bz=01;31:*.tbz=01;31:*.tbz2=01;31:*.tz=01;31:*.deb=01;31:*.rpm=01;31:*.jar=01;31:*.war=01;31:*.ear=01;31:*.sar=01;31:*.rar=01;31:*.alz=01;31:*.ace=01;31:*.zoo=01;31:*.cpio=01;31:*.7z=01;31:*.rz=01;31:*.cab=01;31:*.wim=01;31:*.swm=01;31:*.dwm=01;31:*.esd=01;31:*.avif=01;35:*.jpg=01;35:*.jpeg=01;35:*.mjpg=01;35:*.mjpeg=01;35:*.gif=01;35:*.bmp=01;35:*.pbm=01;35:*.pgm=01;35:*.ppm=01;35:*.tga=01;35:*.xbm=01;35:*.xpm=01;35:*.tif=01;35:*.tiff=01;35:*.png=01;35:*.svg=01;35:*.svgz=01;35:*.mng=01;35:*.pcx=01;35:*.mov=01;35:*.mpg=01;35:*.mpeg=01;35:*.m2v=01;35:*.mkv=01;35:*.webm=01;35:*.webp=01;35:*.ogm=01;35:*.mp4=01;35:*.m4v=01;35:*.mp4v=01;35:*.vob=01;35:*.qt=01;35:*.nuv=01;35:*.wmv=01;35:*.asf=01;35:*.rm=01;35:*.rmvb=01;35:*.flc=01;35:*.avi=01;35:*.fli=01;35:*.flv=01;35:*.gl=01;35:*.dl=01;35:*.xcf=01;35:*.xwd=01;35:*.yuv=01;35:*.cgm=01;35:*.emf=01;35:*.ogv=01;35:*.ogx=01;35:*.aac=00;36:*.au=00;36:*.flac=00;36:*.m4a=00;36:*.mid=00;36:*.midi=00;36:*.mka=00;36:*.mp3=00;36:*.mpc=00;36:*.ogg=00;36:*.ra=00;36:*.wav=00;36:*.oga=00;36:*.opus=00;36:*.spx=00;36:*.xspf=00;36:*~=00;90:*#=00;90:*.bak=00;90:*.crdownload=00;90:*.dpkg-dist=00;90:*.dpkg-new=00;90:*.dpkg-old=00;90:*.dpkg-tmp=00;90:*.old=00;90:*.orig=00;90:*.part=00;90:*.rej=00;90:*.rpmnew=00;90:*.rpmorig=00;90:*.rpmsave=00;90:*.swp=00;90:*.tmp=00;90:*.ucf-dist=00;90:*.ucf-new=00;90:*.ucf-old=00;90:', 'GNOME_TERMINAL_SERVICE': ':1.170', 'SSH_AUTH_SOCK': '/run/user/1000/keyring/ssh', 'AMENT_PREFIX_PATH': '/home/piusr/92032_CAN/RosMsg/install/rosmsg:/opt/ros/jazzy', 'SHELL': '/bin/bash', 'LC_NAME': 'zh_CN.UTF-8', 'QT_ACCESSIBILITY': '1', 'GDMSESSION': 'ubuntu', 'LESSCLOSE': '/usr/bin/lesspipe %s %s', 'LC_MEASUREMENT': 'zh_CN.UTF-8', 'LC_IDENTIFICATION': 'zh_CN.UTF-8', 'ROS_AUTOMATIC_DISCOVERY_RANGE': 'SUBNET', 'QT_IM_MODULE': 'fcitx', 'PWD': '/home/piusr/92032_CAN/RosMsg/build/rosmsg', 'XDG_CONFIG_DIRS': '/etc/xdg/xdg-ubuntu:/etc/xdg', 'CLUTTER_IM_MODULE': 'fcitx', 'DBUS_STARTER_ADDRESS': 'unix:path=/run/user/1000/bus,guid=b48211f9c2c9af0cbc404434695f1a0c', 'XDG_DATA_DIRS': '/usr/share/ubuntu:/usr/share/gnome:/usr/local/share/:/usr/share/:/var/lib/snapd/desktop', 'PYTHONPATH': '/home/piusr/92032_CAN/RosMsg/install/rosmsg/lib/python3.12/site-packages:/opt/ros/jazzy/lib/python3.12/site-packages', 'LC_NUMERIC': 'zh_CN.UTF-8', 'LC_PAPER': 'zh_CN.UTF-8', 'COLCON': '1', 'MEMORY_PRESSURE_WRITE': 'c29tZSAyMDAwMDAgMjAwMDAwMAA=', 'VTE_VERSION': '7600', 'CMAKE_PREFIX_PATH': '/home/piusr/92032_CAN/RosMsg/install/rosmsg:/opt/ros/jazzy/opt/gz_math_vendor:/opt/ros/jazzy/opt/gz_utils_vendor:/opt/ros/jazzy/opt/gz_cmake_vendor:/opt/ros/jazzy'}), 'shell': False}
+[0.799794] (rosmsg) StdoutLine: {'line': b'-- Install configuration: ""\n'}
+[0.800374] (rosmsg) StdoutLine: {'line': b'-- Up-to-date: /home/piusr/92032_CAN/RosMsg/install/rosmsg/share/ament_index/resource_index/rosidl_interfaces/rosmsg\n'}
+[0.800520] (rosmsg) StdoutLine: {'line': b'-- Up-to-date: /home/piusr/92032_CAN/RosMsg/install/rosmsg/share/rosmsg/msg/RosCanMotorSta.json\n'}
+[0.800647] (rosmsg) StdoutLine: {'line': b'-- Up-to-date: /home/piusr/92032_CAN/RosMsg/install/rosmsg/share/rosmsg/msg/RosCanMotorTgt.json\n'}
+[0.800791] (rosmsg) StdoutLine: {'line': b'-- Up-to-date: /home/piusr/92032_CAN/RosMsg/install/rosmsg/share/rosmsg/msg/RosCanImuMsg.json\n'}
+[0.801036] (rosmsg) StdoutLine: {'line': b'-- Up-to-date: /home/piusr/92032_CAN/RosMsg/install/rosmsg/share/rosmsg/msg/MotorInputMsg.json\n'}
+[0.801171] (rosmsg) StdoutLine: {'line': b'-- Up-to-date: /home/piusr/92032_CAN/RosMsg/install/rosmsg/share/rosmsg/msg/MotorOutputMsg.json\n'}
+[0.801268] (rosmsg) StdoutLine: {'line': b'-- Up-to-date: /home/piusr/92032_CAN/RosMsg/install/rosmsg/include/rosmsg/rosmsg\n'}
+[0.801360] (rosmsg) StdoutLine: {'line': b'-- Up-to-date: /home/piusr/92032_CAN/RosMsg/install/rosmsg/include/rosmsg/rosmsg/msg\n'}
+[0.801450] (rosmsg) StdoutLine: {'line': b'-- Up-to-date: /home/piusr/92032_CAN/RosMsg/install/rosmsg/include/rosmsg/rosmsg/msg/ros_can_motor_tgt.h\n'}
+[0.801539] (rosmsg) StdoutLine: {'line': b'-- Up-to-date: /home/piusr/92032_CAN/RosMsg/install/rosmsg/include/rosmsg/rosmsg/msg/motor_output_msg.h\n'}
+[0.801626] (rosmsg) StdoutLine: {'line': b'-- Up-to-date: /home/piusr/92032_CAN/RosMsg/install/rosmsg/include/rosmsg/rosmsg/msg/rosidl_generator_c__visibility_control.h\n'}
+[0.801714] (rosmsg) StdoutLine: {'line': b'-- Up-to-date: /home/piusr/92032_CAN/RosMsg/install/rosmsg/include/rosmsg/rosmsg/msg/motor_input_msg.h\n'}
+[0.801800] (rosmsg) StdoutLine: {'line': b'-- Up-to-date: /home/piusr/92032_CAN/RosMsg/install/rosmsg/include/rosmsg/rosmsg/msg/ros_can_motor_sta.h\n'}
+[0.802028] (rosmsg) StdoutLine: {'line': b'-- Up-to-date: /home/piusr/92032_CAN/RosMsg/install/rosmsg/include/rosmsg/rosmsg/msg/detail\n'}
+[0.802136] (rosmsg) StdoutLine: {'line': b'-- Up-to-date: /home/piusr/92032_CAN/RosMsg/install/rosmsg/include/rosmsg/rosmsg/msg/detail/ros_can_motor_sta__functions.h\n'}
+[0.802242] (rosmsg) StdoutLine: {'line': b'-- Up-to-date: /home/piusr/92032_CAN/RosMsg/install/rosmsg/include/rosmsg/rosmsg/msg/detail/ros_can_imu_msg__functions.h\n'}
+[0.802321] (-) TimerEvent: {}
+[0.802454] (rosmsg) StdoutLine: {'line': b'-- Up-to-date: /home/piusr/92032_CAN/RosMsg/install/rosmsg/include/rosmsg/rosmsg/msg/detail/ros_can_imu_msg__struct.h\n'}
+[0.802554] (rosmsg) StdoutLine: {'line': b'-- Up-to-date: /home/piusr/92032_CAN/RosMsg/install/rosmsg/include/rosmsg/rosmsg/msg/detail/motor_input_msg__type_support.h\n'}
+[0.802661] (rosmsg) StdoutLine: {'line': b'-- Up-to-date: /home/piusr/92032_CAN/RosMsg/install/rosmsg/include/rosmsg/rosmsg/msg/detail/ros_can_motor_tgt__functions.c\n'}
+[0.802807] (rosmsg) StdoutLine: {'line': b'-- Up-to-date: /home/piusr/92032_CAN/RosMsg/install/rosmsg/include/rosmsg/rosmsg/msg/detail/motor_output_msg__functions.c\n'}
+[0.803192] (rosmsg) StdoutLine: {'line': b'-- Up-to-date: /home/piusr/92032_CAN/RosMsg/install/rosmsg/include/rosmsg/rosmsg/msg/detail/motor_output_msg__type_support.h\n'}
+[0.803428] (rosmsg) StdoutLine: {'line': b'-- Up-to-date: /home/piusr/92032_CAN/RosMsg/install/rosmsg/include/rosmsg/rosmsg/msg/detail/ros_can_motor_tgt__functions.h\n'}
+[0.803591] (rosmsg) StdoutLine: {'line': b'-- Up-to-date: /home/piusr/92032_CAN/RosMsg/install/rosmsg/include/rosmsg/rosmsg/msg/detail/motor_output_msg__functions.h\n'}
+[0.803841] (rosmsg) StdoutLine: {'line': b'-- Up-to-date: /home/piusr/92032_CAN/RosMsg/install/rosmsg/include/rosmsg/rosmsg/msg/detail/ros_can_motor_tgt__struct.h\n'}
+[0.804195] (rosmsg) StdoutLine: {'line': b'-- Up-to-date: /home/piusr/92032_CAN/RosMsg/install/rosmsg/include/rosmsg/rosmsg/msg/detail/ros_can_motor_sta__description.c\n'}
+[0.804407] (rosmsg) StdoutLine: {'line': b'-- Up-to-date: /home/piusr/92032_CAN/RosMsg/install/rosmsg/include/rosmsg/rosmsg/msg/detail/motor_output_msg__description.c\n'}
+[0.804600] (rosmsg) StdoutLine: {'line': b'-- Up-to-date: /home/piusr/92032_CAN/RosMsg/install/rosmsg/include/rosmsg/rosmsg/msg/detail/ros_can_motor_sta__functions.c\n'}
+[0.804791] (rosmsg) StdoutLine: {'line': b'-- Up-to-date: /home/piusr/92032_CAN/RosMsg/install/rosmsg/include/rosmsg/rosmsg/msg/detail/ros_can_imu_msg__type_support.h\n'}
+[0.805002] (rosmsg) StdoutLine: {'line': b'-- Up-to-date: /home/piusr/92032_CAN/RosMsg/install/rosmsg/include/rosmsg/rosmsg/msg/detail/motor_input_msg__description.c\n'}
+[0.805124] (rosmsg) StdoutLine: {'line': b'-- Up-to-date: /home/piusr/92032_CAN/RosMsg/install/rosmsg/include/rosmsg/rosmsg/msg/detail/ros_can_motor_sta__type_support.c\n'}
+[0.805214] (rosmsg) StdoutLine: {'line': b'-- Up-to-date: /home/piusr/92032_CAN/RosMsg/install/rosmsg/include/rosmsg/rosmsg/msg/detail/ros_can_imu_msg__description.c\n'}
+[0.805298] (rosmsg) StdoutLine: {'line': b'-- Up-to-date: /home/piusr/92032_CAN/RosMsg/install/rosmsg/include/rosmsg/rosmsg/msg/detail/ros_can_motor_tgt__type_support.c\n'}
+[0.805388] (rosmsg) StdoutLine: {'line': b'-- Up-to-date: /home/piusr/92032_CAN/RosMsg/install/rosmsg/include/rosmsg/rosmsg/msg/detail/motor_output_msg__type_support.c\n'}
+[0.805483] (rosmsg) StdoutLine: {'line': b'-- Up-to-date: /home/piusr/92032_CAN/RosMsg/install/rosmsg/include/rosmsg/rosmsg/msg/detail/ros_can_imu_msg__type_support.c\n'}
+[0.805577] (rosmsg) StdoutLine: {'line': b'-- Up-to-date: /home/piusr/92032_CAN/RosMsg/install/rosmsg/include/rosmsg/rosmsg/msg/detail/ros_can_motor_tgt__description.c\n'}
+[0.805680] (rosmsg) StdoutLine: {'line': b'-- Up-to-date: /home/piusr/92032_CAN/RosMsg/install/rosmsg/include/rosmsg/rosmsg/msg/detail/motor_input_msg__functions.h\n'}
+[0.805768] (rosmsg) StdoutLine: {'line': b'-- Up-to-date: /home/piusr/92032_CAN/RosMsg/install/rosmsg/include/rosmsg/rosmsg/msg/detail/ros_can_motor_sta__struct.h\n'}
+[0.805878] (rosmsg) StdoutLine: {'line': b'-- Up-to-date: /home/piusr/92032_CAN/RosMsg/install/rosmsg/include/rosmsg/rosmsg/msg/detail/ros_can_motor_sta__type_support.h\n'}
+[0.806513] (rosmsg) StdoutLine: {'line': b'-- Up-to-date: /home/piusr/92032_CAN/RosMsg/install/rosmsg/include/rosmsg/rosmsg/msg/detail/ros_can_imu_msg__functions.c\n'}
+[0.807192] (rosmsg) StdoutLine: {'line': b'-- Up-to-date: /home/piusr/92032_CAN/RosMsg/install/rosmsg/include/rosmsg/rosmsg/msg/detail/motor_output_msg__struct.h\n'}
+[0.807505] (rosmsg) StdoutLine: {'line': b'-- Up-to-date: /home/piusr/92032_CAN/RosMsg/install/rosmsg/include/rosmsg/rosmsg/msg/detail/motor_input_msg__type_support.c\n'}
+[0.807647] (rosmsg) StdoutLine: {'line': b'-- Up-to-date: /home/piusr/92032_CAN/RosMsg/install/rosmsg/include/rosmsg/rosmsg/msg/detail/motor_input_msg__struct.h\n'}
+[0.807732] (rosmsg) StdoutLine: {'line': b'-- Up-to-date: /home/piusr/92032_CAN/RosMsg/install/rosmsg/include/rosmsg/rosmsg/msg/detail/ros_can_motor_tgt__type_support.h\n'}
+[0.807957] (rosmsg) StdoutLine: {'line': b'-- Up-to-date: /home/piusr/92032_CAN/RosMsg/install/rosmsg/include/rosmsg/rosmsg/msg/detail/motor_input_msg__functions.c\n'}
+[0.808073] (rosmsg) StdoutLine: {'line': b'-- Up-to-date: /home/piusr/92032_CAN/RosMsg/install/rosmsg/include/rosmsg/rosmsg/msg/ros_can_imu_msg.h\n'}
+[0.808176] (rosmsg) StdoutLine: {'line': b'-- Up-to-date: /home/piusr/92032_CAN/RosMsg/install/rosmsg/share/rosmsg/environment/library_path.sh\n'}
+[0.808300] (rosmsg) StdoutLine: {'line': b'-- Up-to-date: /home/piusr/92032_CAN/RosMsg/install/rosmsg/share/rosmsg/environment/library_path.dsv\n'}
+[0.808398] (rosmsg) StdoutLine: {'line': b'-- Up-to-date: /home/piusr/92032_CAN/RosMsg/install/rosmsg/lib/librosmsg__rosidl_generator_c.so\n'}
+[0.808495] (rosmsg) StdoutLine: {'line': b'-- Up-to-date: /home/piusr/92032_CAN/RosMsg/install/rosmsg/include/rosmsg/rosmsg\n'}
+[0.808601] (rosmsg) StdoutLine: {'line': b'-- Up-to-date: /home/piusr/92032_CAN/RosMsg/install/rosmsg/include/rosmsg/rosmsg/msg\n'}
+[0.808767] (rosmsg) StdoutLine: {'line': b'-- Up-to-date: /home/piusr/92032_CAN/RosMsg/install/rosmsg/include/rosmsg/rosmsg/msg/rosidl_typesupport_fastrtps_c__visibility_control.h\n'}
+[0.808944] (rosmsg) StdoutLine: {'line': b'-- Up-to-date: /home/piusr/92032_CAN/RosMsg/install/rosmsg/include/rosmsg/rosmsg/msg/detail\n'}
+[0.809094] (rosmsg) StdoutLine: {'line': b'-- Up-to-date: /home/piusr/92032_CAN/RosMsg/install/rosmsg/include/rosmsg/rosmsg/msg/detail/motor_input_msg__rosidl_typesupport_fastrtps_c.h\n'}
+[0.809211] (rosmsg) StdoutLine: {'line': b'-- Up-to-date: /home/piusr/92032_CAN/RosMsg/install/rosmsg/include/rosmsg/rosmsg/msg/detail/ros_can_imu_msg__rosidl_typesupport_fastrtps_c.h\n'}
+[0.809319] (rosmsg) StdoutLine: {'line': b'-- Up-to-date: /home/piusr/92032_CAN/RosMsg/install/rosmsg/include/rosmsg/rosmsg/msg/detail/motor_output_msg__rosidl_typesupport_fastrtps_c.h\n'}
+[0.809407] (rosmsg) StdoutLine: {'line': b'-- Up-to-date: /home/piusr/92032_CAN/RosMsg/install/rosmsg/include/rosmsg/rosmsg/msg/detail/ros_can_motor_tgt__rosidl_typesupport_fastrtps_c.h\n'}
+[0.809488] (rosmsg) StdoutLine: {'line': b'-- Up-to-date: /home/piusr/92032_CAN/RosMsg/install/rosmsg/include/rosmsg/rosmsg/msg/detail/ros_can_motor_sta__rosidl_typesupport_fastrtps_c.h\n'}
+[0.809577] (rosmsg) StdoutLine: {'line': b'-- Up-to-date: /home/piusr/92032_CAN/RosMsg/install/rosmsg/lib/librosmsg__rosidl_typesupport_fastrtps_c.so\n'}
+[0.809663] (rosmsg) StdoutLine: {'line': b'-- Up-to-date: /home/piusr/92032_CAN/RosMsg/install/rosmsg/include/rosmsg/rosmsg\n'}
+[0.809748] (rosmsg) StdoutLine: {'line': b'-- Up-to-date: /home/piusr/92032_CAN/RosMsg/install/rosmsg/include/rosmsg/rosmsg/msg\n'}
+[0.809946] (rosmsg) StdoutLine: {'line': b'-- Up-to-date: /home/piusr/92032_CAN/RosMsg/install/rosmsg/include/rosmsg/rosmsg/msg/ros_can_motor_tgt.hpp\n'}
+[0.810056] (rosmsg) StdoutLine: {'line': b'-- Up-to-date: /home/piusr/92032_CAN/RosMsg/install/rosmsg/include/rosmsg/rosmsg/msg/rosidl_generator_cpp__visibility_control.hpp\n'}
+[0.810156] (rosmsg) StdoutLine: {'line': b'-- Up-to-date: /home/piusr/92032_CAN/RosMsg/install/rosmsg/include/rosmsg/rosmsg/msg/ros_can_motor_sta.hpp\n'}
+[0.810241] (rosmsg) StdoutLine: {'line': b'-- Up-to-date: /home/piusr/92032_CAN/RosMsg/install/rosmsg/include/rosmsg/rosmsg/msg/ros_can_imu_msg.hpp\n'}
+[0.810356] (rosmsg) StdoutLine: {'line': b'-- Up-to-date: /home/piusr/92032_CAN/RosMsg/install/rosmsg/include/rosmsg/rosmsg/msg/motor_output_msg.hpp\n'}
+[0.810431] (rosmsg) StdoutLine: {'line': b'-- Up-to-date: /home/piusr/92032_CAN/RosMsg/install/rosmsg/include/rosmsg/rosmsg/msg/detail\n'}
+[0.810512] (rosmsg) StdoutLine: {'line': b'-- Up-to-date: /home/piusr/92032_CAN/RosMsg/install/rosmsg/include/rosmsg/rosmsg/msg/detail/ros_can_motor_tgt__builder.hpp\n'}
+[0.810593] (rosmsg) StdoutLine: {'line': b'-- Up-to-date: /home/piusr/92032_CAN/RosMsg/install/rosmsg/include/rosmsg/rosmsg/msg/detail/ros_can_motor_tgt__struct.hpp\n'}
+[0.810674] (rosmsg) StdoutLine: {'line': b'-- Up-to-date: /home/piusr/92032_CAN/RosMsg/install/rosmsg/include/rosmsg/rosmsg/msg/detail/motor_input_msg__struct.hpp\n'}
+[0.810754] (rosmsg) StdoutLine: {'line': b'-- Up-to-date: /home/piusr/92032_CAN/RosMsg/install/rosmsg/include/rosmsg/rosmsg/msg/detail/ros_can_motor_sta__type_support.hpp\n'}
+[0.810851] (rosmsg) StdoutLine: {'line': b'-- Up-to-date: /home/piusr/92032_CAN/RosMsg/install/rosmsg/include/rosmsg/rosmsg/msg/detail/motor_output_msg__traits.hpp\n'}
+[0.810976] (rosmsg) StdoutLine: {'line': b'-- Up-to-date: /home/piusr/92032_CAN/RosMsg/install/rosmsg/include/rosmsg/rosmsg/msg/detail/ros_can_imu_msg__struct.hpp\n'}
+[0.811075] (rosmsg) StdoutLine: {'line': b'-- Up-to-date: /home/piusr/92032_CAN/RosMsg/install/rosmsg/include/rosmsg/rosmsg/msg/detail/motor_input_msg__builder.hpp\n'}
+[0.811149] (rosmsg) StdoutLine: {'line': b'-- Up-to-date: /home/piusr/92032_CAN/RosMsg/install/rosmsg/include/rosmsg/rosmsg/msg/detail/ros_can_imu_msg__type_support.hpp\n'}
+[0.811227] (rosmsg) StdoutLine: {'line': b'-- Up-to-date: /home/piusr/92032_CAN/RosMsg/install/rosmsg/include/rosmsg/rosmsg/msg/detail/ros_can_motor_tgt__traits.hpp\n'}
+[0.811309] (rosmsg) StdoutLine: {'line': b'-- Up-to-date: /home/piusr/92032_CAN/RosMsg/install/rosmsg/include/rosmsg/rosmsg/msg/detail/ros_can_imu_msg__builder.hpp\n'}
+[0.811391] (rosmsg) StdoutLine: {'line': b'-- Up-to-date: /home/piusr/92032_CAN/RosMsg/install/rosmsg/include/rosmsg/rosmsg/msg/detail/motor_output_msg__type_support.hpp\n'}
+[0.811471] (rosmsg) StdoutLine: {'line': b'-- Up-to-date: /home/piusr/92032_CAN/RosMsg/install/rosmsg/include/rosmsg/rosmsg/msg/detail/motor_output_msg__struct.hpp\n'}
+[0.811550] (rosmsg) StdoutLine: {'line': b'-- Up-to-date: /home/piusr/92032_CAN/RosMsg/install/rosmsg/include/rosmsg/rosmsg/msg/detail/motor_input_msg__type_support.hpp\n'}
+[0.811629] (rosmsg) StdoutLine: {'line': b'-- Up-to-date: /home/piusr/92032_CAN/RosMsg/install/rosmsg/include/rosmsg/rosmsg/msg/detail/ros_can_motor_sta__builder.hpp\n'}
+[0.811708] (rosmsg) StdoutLine: {'line': b'-- Up-to-date: /home/piusr/92032_CAN/RosMsg/install/rosmsg/include/rosmsg/rosmsg/msg/detail/ros_can_imu_msg__traits.hpp\n'}
+[0.811787] (rosmsg) StdoutLine: {'line': b'-- Up-to-date: /home/piusr/92032_CAN/RosMsg/install/rosmsg/include/rosmsg/rosmsg/msg/detail/ros_can_motor_sta__traits.hpp\n'}
+[0.811977] (rosmsg) StdoutLine: {'line': b'-- Up-to-date: /home/piusr/92032_CAN/RosMsg/install/rosmsg/include/rosmsg/rosmsg/msg/detail/ros_can_motor_tgt__type_support.hpp\n'}
+[0.812066] (rosmsg) StdoutLine: {'line': b'-- Up-to-date: /home/piusr/92032_CAN/RosMsg/install/rosmsg/include/rosmsg/rosmsg/msg/detail/motor_input_msg__traits.hpp\n'}
+[0.812148] (rosmsg) StdoutLine: {'line': b'-- Up-to-date: /home/piusr/92032_CAN/RosMsg/install/rosmsg/include/rosmsg/rosmsg/msg/detail/motor_output_msg__builder.hpp\n'}
+[0.812230] (rosmsg) StdoutLine: {'line': b'-- Up-to-date: /home/piusr/92032_CAN/RosMsg/install/rosmsg/include/rosmsg/rosmsg/msg/detail/ros_can_motor_sta__struct.hpp\n'}
+[0.812309] (rosmsg) StdoutLine: {'line': b'-- Up-to-date: /home/piusr/92032_CAN/RosMsg/install/rosmsg/include/rosmsg/rosmsg/msg/motor_input_msg.hpp\n'}
+[0.812388] (rosmsg) StdoutLine: {'line': b'-- Up-to-date: /home/piusr/92032_CAN/RosMsg/install/rosmsg/include/rosmsg/rosmsg\n'}
+[0.812467] (rosmsg) StdoutLine: {'line': b'-- Up-to-date: /home/piusr/92032_CAN/RosMsg/install/rosmsg/include/rosmsg/rosmsg/msg\n'}
+[0.812566] (rosmsg) StdoutLine: {'line': b'-- Up-to-date: /home/piusr/92032_CAN/RosMsg/install/rosmsg/include/rosmsg/rosmsg/msg/rosidl_typesupport_fastrtps_cpp__visibility_control.h\n'}
+[0.812640] (rosmsg) StdoutLine: {'line': b'-- Up-to-date: /home/piusr/92032_CAN/RosMsg/install/rosmsg/include/rosmsg/rosmsg/msg/detail\n'}
+[0.812711] (rosmsg) StdoutLine: {'line': b'-- Up-to-date: /home/piusr/92032_CAN/RosMsg/install/rosmsg/include/rosmsg/rosmsg/msg/detail/ros_can_motor_tgt__rosidl_typesupport_fastrtps_cpp.hpp\n'}
+[0.812783] (rosmsg) StdoutLine: {'line': b'-- Up-to-date: /home/piusr/92032_CAN/RosMsg/install/rosmsg/include/rosmsg/rosmsg/msg/detail/motor_output_msg__rosidl_typesupport_fastrtps_cpp.hpp\n'}
+[0.812874] (rosmsg) StdoutLine: {'line': b'-- Up-to-date: /home/piusr/92032_CAN/RosMsg/install/rosmsg/include/rosmsg/rosmsg/msg/detail/ros_can_motor_sta__rosidl_typesupport_fastrtps_cpp.hpp\n'}
+[0.812949] (rosmsg) StdoutLine: {'line': b'-- Up-to-date: /home/piusr/92032_CAN/RosMsg/install/rosmsg/include/rosmsg/rosmsg/msg/detail/dds_fastrtps\n'}
+[0.813022] (rosmsg) StdoutLine: {'line': b'-- Up-to-date: /home/piusr/92032_CAN/RosMsg/install/rosmsg/include/rosmsg/rosmsg/msg/detail/motor_input_msg__rosidl_typesupport_fastrtps_cpp.hpp\n'}
+[0.813116] (rosmsg) StdoutLine: {'line': b'-- Up-to-date: /home/piusr/92032_CAN/RosMsg/install/rosmsg/include/rosmsg/rosmsg/msg/detail/ros_can_imu_msg__rosidl_typesupport_fastrtps_cpp.hpp\n'}
+[0.813191] (rosmsg) StdoutLine: {'line': b'-- Up-to-date: /home/piusr/92032_CAN/RosMsg/install/rosmsg/lib/librosmsg__rosidl_typesupport_fastrtps_cpp.so\n'}
+[0.813269] (rosmsg) StdoutLine: {'line': b'-- Up-to-date: /home/piusr/92032_CAN/RosMsg/install/rosmsg/include/rosmsg/rosmsg\n'}
+[0.813342] (rosmsg) StdoutLine: {'line': b'-- Up-to-date: /home/piusr/92032_CAN/RosMsg/install/rosmsg/include/rosmsg/rosmsg/msg\n'}
+[0.813414] (rosmsg) StdoutLine: {'line': b'-- Up-to-date: /home/piusr/92032_CAN/RosMsg/install/rosmsg/include/rosmsg/rosmsg/msg/rosidl_typesupport_introspection_c__visibility_control.h\n'}
+[0.813490] (rosmsg) StdoutLine: {'line': b'-- Up-to-date: /home/piusr/92032_CAN/RosMsg/install/rosmsg/include/rosmsg/rosmsg/msg/detail\n'}
+[0.813562] (rosmsg) StdoutLine: {'line': b'-- Up-to-date: /home/piusr/92032_CAN/RosMsg/install/rosmsg/include/rosmsg/rosmsg/msg/detail/ros_can_imu_msg__rosidl_typesupport_introspection_c.h\n'}
+[0.813633] (rosmsg) StdoutLine: {'line': b'-- Up-to-date: /home/piusr/92032_CAN/RosMsg/install/rosmsg/include/rosmsg/rosmsg/msg/detail/ros_can_motor_tgt__rosidl_typesupport_introspection_c.h\n'}
+[0.813704] (rosmsg) StdoutLine: {'line': b'-- Up-to-date: /home/piusr/92032_CAN/RosMsg/install/rosmsg/include/rosmsg/rosmsg/msg/detail/motor_input_msg__rosidl_typesupport_introspection_c.h\n'}
+[0.813776] (rosmsg) StdoutLine: {'line': b'-- Up-to-date: /home/piusr/92032_CAN/RosMsg/install/rosmsg/include/rosmsg/rosmsg/msg/detail/ros_can_motor_sta__type_support.c\n'}
+[0.813867] (rosmsg) StdoutLine: {'line': b'-- Up-to-date: /home/piusr/92032_CAN/RosMsg/install/rosmsg/include/rosmsg/rosmsg/msg/detail/ros_can_motor_tgt__type_support.c\n'}
+[0.813944] (rosmsg) StdoutLine: {'line': b'-- Up-to-date: /home/piusr/92032_CAN/RosMsg/install/rosmsg/include/rosmsg/rosmsg/msg/detail/motor_output_msg__type_support.c\n'}
+[0.814015] (rosmsg) StdoutLine: {'line': b'-- Up-to-date: /home/piusr/92032_CAN/RosMsg/install/rosmsg/include/rosmsg/rosmsg/msg/detail/ros_can_imu_msg__type_support.c\n'}
+[0.814088] (rosmsg) StdoutLine: {'line': b'-- Up-to-date: /home/piusr/92032_CAN/RosMsg/install/rosmsg/include/rosmsg/rosmsg/msg/detail/ros_can_motor_sta__rosidl_typesupport_introspection_c.h\n'}
+[0.814163] (rosmsg) StdoutLine: {'line': b'-- Up-to-date: /home/piusr/92032_CAN/RosMsg/install/rosmsg/include/rosmsg/rosmsg/msg/detail/motor_input_msg__type_support.c\n'}
+[0.814236] (rosmsg) StdoutLine: {'line': b'-- Up-to-date: /home/piusr/92032_CAN/RosMsg/install/rosmsg/include/rosmsg/rosmsg/msg/detail/motor_output_msg__rosidl_typesupport_introspection_c.h\n'}
+[0.814309] (rosmsg) StdoutLine: {'line': b'-- Up-to-date: /home/piusr/92032_CAN/RosMsg/install/rosmsg/lib/librosmsg__rosidl_typesupport_introspection_c.so\n'}
+[0.814396] (rosmsg) StdoutLine: {'line': b'-- Up-to-date: /home/piusr/92032_CAN/RosMsg/install/rosmsg/lib/librosmsg__rosidl_typesupport_c.so\n'}
+[0.814470] (rosmsg) StdoutLine: {'line': b'-- Up-to-date: /home/piusr/92032_CAN/RosMsg/install/rosmsg/include/rosmsg/rosmsg\n'}
+[0.814542] (rosmsg) StdoutLine: {'line': b'-- Up-to-date: /home/piusr/92032_CAN/RosMsg/install/rosmsg/include/rosmsg/rosmsg/msg\n'}
+[0.814614] (rosmsg) StdoutLine: {'line': b'-- Up-to-date: /home/piusr/92032_CAN/RosMsg/install/rosmsg/include/rosmsg/rosmsg/msg/detail\n'}
+[0.814686] (rosmsg) StdoutLine: {'line': b'-- Up-to-date: /home/piusr/92032_CAN/RosMsg/install/rosmsg/include/rosmsg/rosmsg/msg/detail/motor_input_msg__rosidl_typesupport_introspection_cpp.hpp\n'}
+[0.814759] (rosmsg) StdoutLine: {'line': b'-- Up-to-date: /home/piusr/92032_CAN/RosMsg/install/rosmsg/include/rosmsg/rosmsg/msg/detail/ros_can_motor_tgt__type_support.cpp\n'}
+[0.814849] (rosmsg) StdoutLine: {'line': b'-- Up-to-date: /home/piusr/92032_CAN/RosMsg/install/rosmsg/include/rosmsg/rosmsg/msg/detail/motor_input_msg__type_support.cpp\n'}
+[0.814931] (rosmsg) StdoutLine: {'line': b'-- Up-to-date: /home/piusr/92032_CAN/RosMsg/install/rosmsg/include/rosmsg/rosmsg/msg/detail/ros_can_motor_sta__rosidl_typesupport_introspection_cpp.hpp\n'}
+[0.815004] (rosmsg) StdoutLine: {'line': b'-- Up-to-date: /home/piusr/92032_CAN/RosMsg/install/rosmsg/include/rosmsg/rosmsg/msg/detail/ros_can_motor_tgt__rosidl_typesupport_introspection_cpp.hpp\n'}
+[0.815076] (rosmsg) StdoutLine: {'line': b'-- Up-to-date: /home/piusr/92032_CAN/RosMsg/install/rosmsg/include/rosmsg/rosmsg/msg/detail/motor_output_msg__rosidl_typesupport_introspection_cpp.hpp\n'}
+[0.815148] (rosmsg) StdoutLine: {'line': b'-- Up-to-date: /home/piusr/92032_CAN/RosMsg/install/rosmsg/include/rosmsg/rosmsg/msg/detail/ros_can_imu_msg__rosidl_typesupport_introspection_cpp.hpp\n'}
+[0.815220] (rosmsg) StdoutLine: {'line': b'-- Up-to-date: /home/piusr/92032_CAN/RosMsg/install/rosmsg/include/rosmsg/rosmsg/msg/detail/motor_output_msg__type_support.cpp\n'}
+[0.815291] (rosmsg) StdoutLine: {'line': b'-- Up-to-date: /home/piusr/92032_CAN/RosMsg/install/rosmsg/include/rosmsg/rosmsg/msg/detail/ros_can_imu_msg__type_support.cpp\n'}
+[0.815362] (rosmsg) StdoutLine: {'line': b'-- Up-to-date: /home/piusr/92032_CAN/RosMsg/install/rosmsg/include/rosmsg/rosmsg/msg/detail/ros_can_motor_sta__type_support.cpp\n'}
+[0.815441] (rosmsg) StdoutLine: {'line': b'-- Up-to-date: /home/piusr/92032_CAN/RosMsg/install/rosmsg/lib/librosmsg__rosidl_typesupport_introspection_cpp.so\n'}
+[0.815517] (rosmsg) StdoutLine: {'line': b'-- Up-to-date: /home/piusr/92032_CAN/RosMsg/install/rosmsg/lib/librosmsg__rosidl_typesupport_cpp.so\n'}
+[0.815605] (rosmsg) StdoutLine: {'line': b'-- Up-to-date: /home/piusr/92032_CAN/RosMsg/install/rosmsg/share/rosmsg/environment/pythonpath.sh\n'}
+[0.815679] (rosmsg) StdoutLine: {'line': b'-- Up-to-date: /home/piusr/92032_CAN/RosMsg/install/rosmsg/share/rosmsg/environment/pythonpath.dsv\n'}
+[0.815750] (rosmsg) StdoutLine: {'line': b'-- Up-to-date: /home/piusr/92032_CAN/RosMsg/install/rosmsg/lib/python3.12/site-packages/rosmsg-0.0.0-py3.12.egg-info\n'}
+[0.815840] (rosmsg) StdoutLine: {'line': b'-- Installing: /home/piusr/92032_CAN/RosMsg/install/rosmsg/lib/python3.12/site-packages/rosmsg-0.0.0-py3.12.egg-info/dependency_links.txt\n'}
+[0.815924] (rosmsg) StdoutLine: {'line': b'-- Installing: /home/piusr/92032_CAN/RosMsg/install/rosmsg/lib/python3.12/site-packages/rosmsg-0.0.0-py3.12.egg-info/top_level.txt\n'}
+[0.815999] (rosmsg) StdoutLine: {'line': b'-- Installing: /home/piusr/92032_CAN/RosMsg/install/rosmsg/lib/python3.12/site-packages/rosmsg-0.0.0-py3.12.egg-info/SOURCES.txt\n'}
+[0.816072] (rosmsg) StdoutLine: {'line': b'-- Installing: /home/piusr/92032_CAN/RosMsg/install/rosmsg/lib/python3.12/site-packages/rosmsg-0.0.0-py3.12.egg-info/PKG-INFO\n'}
+[0.816144] (rosmsg) StdoutLine: {'line': b'-- Up-to-date: /home/piusr/92032_CAN/RosMsg/install/rosmsg/lib/python3.12/site-packages/rosmsg\n'}
+[0.816226] (rosmsg) StdoutLine: {'line': b'-- Up-to-date: /home/piusr/92032_CAN/RosMsg/install/rosmsg/lib/python3.12/site-packages/rosmsg/_rosmsg_s.ep.rosidl_typesupport_introspection_c.c\n'}
+[0.816301] (rosmsg) StdoutLine: {'line': b'-- Up-to-date: /home/piusr/92032_CAN/RosMsg/install/rosmsg/lib/python3.12/site-packages/rosmsg/rosmsg_s__rosidl_typesupport_fastrtps_c.so\n'}
+[0.816376] (rosmsg) StdoutLine: {'line': b'-- Up-to-date: /home/piusr/92032_CAN/RosMsg/install/rosmsg/lib/python3.12/site-packages/rosmsg/_rosmsg_s.ep.rosidl_typesupport_fastrtps_c.c\n'}
+[0.816454] (rosmsg) StdoutLine: {'line': b'-- Up-to-date: /home/piusr/92032_CAN/RosMsg/install/rosmsg/lib/python3.12/site-packages/rosmsg/msg\n'}
+[0.816527] (rosmsg) StdoutLine: {'line': b'-- Up-to-date: /home/piusr/92032_CAN/RosMsg/install/rosmsg/lib/python3.12/site-packages/rosmsg/msg/_ros_can_motor_tgt_s.c\n'}
+[0.816601] (rosmsg) StdoutLine: {'line': b'-- Up-to-date: /home/piusr/92032_CAN/RosMsg/install/rosmsg/lib/python3.12/site-packages/rosmsg/msg/_ros_can_imu_msg_s.c\n'}
+[0.816678] (rosmsg) StdoutLine: {'line': b'-- Up-to-date: /home/piusr/92032_CAN/RosMsg/install/rosmsg/lib/python3.12/site-packages/rosmsg/msg/_motor_input_msg.py\n'}
+[0.816760] (rosmsg) StdoutLine: {'line': b'-- Up-to-date: /home/piusr/92032_CAN/RosMsg/install/rosmsg/lib/python3.12/site-packages/rosmsg/msg/_motor_input_msg_s.c\n'}
+[0.816848] (rosmsg) StdoutLine: {'line': b'-- Up-to-date: /home/piusr/92032_CAN/RosMsg/install/rosmsg/lib/python3.12/site-packages/rosmsg/msg/_motor_output_msg_s.c\n'}
+[0.816931] (rosmsg) StdoutLine: {'line': b'-- Up-to-date: /home/piusr/92032_CAN/RosMsg/install/rosmsg/lib/python3.12/site-packages/rosmsg/msg/_ros_can_motor_sta.py\n'}
+[0.817004] (rosmsg) StdoutLine: {'line': b'-- Up-to-date: /home/piusr/92032_CAN/RosMsg/install/rosmsg/lib/python3.12/site-packages/rosmsg/msg/__init__.py\n'}
+[0.817076] (rosmsg) StdoutLine: {'line': b'-- Up-to-date: /home/piusr/92032_CAN/RosMsg/install/rosmsg/lib/python3.12/site-packages/rosmsg/msg/_motor_output_msg.py\n'}
+[0.817150] (rosmsg) StdoutLine: {'line': b'-- Up-to-date: /home/piusr/92032_CAN/RosMsg/install/rosmsg/lib/python3.12/site-packages/rosmsg/msg/_ros_can_motor_tgt.py\n'}
+[0.817222] (rosmsg) StdoutLine: {'line': b'-- Up-to-date: /home/piusr/92032_CAN/RosMsg/install/rosmsg/lib/python3.12/site-packages/rosmsg/msg/_ros_can_motor_sta_s.c\n'}
+[0.817293] (rosmsg) StdoutLine: {'line': b'-- Up-to-date: /home/piusr/92032_CAN/RosMsg/install/rosmsg/lib/python3.12/site-packages/rosmsg/msg/_ros_can_imu_msg.py\n'}
+[0.817367] (rosmsg) StdoutLine: {'line': b'-- Up-to-date: /home/piusr/92032_CAN/RosMsg/install/rosmsg/lib/python3.12/site-packages/rosmsg/__init__.py\n'}
+[0.817438] (rosmsg) StdoutLine: {'line': b'-- Up-to-date: /home/piusr/92032_CAN/RosMsg/install/rosmsg/lib/python3.12/site-packages/rosmsg/rosmsg_s__rosidl_typesupport_c.so\n'}
+[0.817510] (rosmsg) StdoutLine: {'line': b'-- Up-to-date: /home/piusr/92032_CAN/RosMsg/install/rosmsg/lib/python3.12/site-packages/rosmsg/_rosmsg_s.ep.rosidl_typesupport_c.c\n'}
+[0.817583] (rosmsg) StdoutLine: {'line': b'-- Up-to-date: /home/piusr/92032_CAN/RosMsg/install/rosmsg/lib/python3.12/site-packages/rosmsg/rosmsg_s__rosidl_typesupport_introspection_c.so\n'}
+[0.863471] (rosmsg) StdoutLine: {'line': b"Listing '/home/piusr/92032_CAN/RosMsg/install/rosmsg/lib/python3.12/site-packages/rosmsg'...\n"}
+[0.863729] (rosmsg) StdoutLine: {'line': b"Listing '/home/piusr/92032_CAN/RosMsg/install/rosmsg/lib/python3.12/site-packages/rosmsg/msg'...\n"}
+[0.875543] (rosmsg) StdoutLine: {'line': b'-- Up-to-date: /home/piusr/92032_CAN/RosMsg/install/rosmsg/lib/python3.12/site-packages/rosmsg/rosmsg_s__rosidl_typesupport_fastrtps_c.so\n'}
+[0.876000] (rosmsg) StdoutLine: {'line': b'-- Up-to-date: /home/piusr/92032_CAN/RosMsg/install/rosmsg/lib/python3.12/site-packages/rosmsg/rosmsg_s__rosidl_typesupport_introspection_c.so\n'}
+[0.876369] (rosmsg) StdoutLine: {'line': b'-- Up-to-date: /home/piusr/92032_CAN/RosMsg/install/rosmsg/lib/python3.12/site-packages/rosmsg/rosmsg_s__rosidl_typesupport_c.so\n'}
+[0.876751] (rosmsg) StdoutLine: {'line': b'-- Up-to-date: /home/piusr/92032_CAN/RosMsg/install/rosmsg/lib/librosmsg__rosidl_generator_py.so\n'}
+[0.876993] (rosmsg) StdoutLine: {'line': b'-- Up-to-date: /home/piusr/92032_CAN/RosMsg/install/rosmsg/share/rosmsg/msg/RosCanMotorSta.idl\n'}
+[0.877106] (rosmsg) StdoutLine: {'line': b'-- Up-to-date: /home/piusr/92032_CAN/RosMsg/install/rosmsg/share/rosmsg/msg/RosCanMotorTgt.idl\n'}
+[0.877229] (rosmsg) StdoutLine: {'line': b'-- Up-to-date: /home/piusr/92032_CAN/RosMsg/install/rosmsg/share/rosmsg/msg/RosCanImuMsg.idl\n'}
+[0.877328] (rosmsg) StdoutLine: {'line': b'-- Up-to-date: /home/piusr/92032_CAN/RosMsg/install/rosmsg/share/rosmsg/msg/MotorInputMsg.idl\n'}
+[0.877411] (rosmsg) StdoutLine: {'line': b'-- Up-to-date: /home/piusr/92032_CAN/RosMsg/install/rosmsg/share/rosmsg/msg/MotorOutputMsg.idl\n'}
+[0.877492] (rosmsg) StdoutLine: {'line': b'-- Up-to-date: /home/piusr/92032_CAN/RosMsg/install/rosmsg/share/rosmsg/msg/RosCanMotorSta.msg\n'}
+[0.877623] (rosmsg) StdoutLine: {'line': b'-- Up-to-date: /home/piusr/92032_CAN/RosMsg/install/rosmsg/share/rosmsg/msg/RosCanMotorTgt.msg\n'}
+[0.877707] (rosmsg) StdoutLine: {'line': b'-- Up-to-date: /home/piusr/92032_CAN/RosMsg/install/rosmsg/share/rosmsg/msg/RosCanImuMsg.msg\n'}
+[0.877788] (rosmsg) StdoutLine: {'line': b'-- Up-to-date: /home/piusr/92032_CAN/RosMsg/install/rosmsg/share/rosmsg/msg/MotorInputMsg.msg\n'}
+[0.877914] (rosmsg) StdoutLine: {'line': b'-- Up-to-date: /home/piusr/92032_CAN/RosMsg/install/rosmsg/share/rosmsg/msg/MotorOutputMsg.msg\n'}
+[0.878000] (rosmsg) StdoutLine: {'line': b'-- Up-to-date: /home/piusr/92032_CAN/RosMsg/install/rosmsg/share/ament_index/resource_index/package_run_dependencies/rosmsg\n'}
+[0.878082] (rosmsg) StdoutLine: {'line': b'-- Up-to-date: /home/piusr/92032_CAN/RosMsg/install/rosmsg/share/ament_index/resource_index/parent_prefix_path/rosmsg\n'}
+[0.878164] (rosmsg) StdoutLine: {'line': b'-- Up-to-date: /home/piusr/92032_CAN/RosMsg/install/rosmsg/share/rosmsg/environment/ament_prefix_path.sh\n'}
+[0.878245] (rosmsg) StdoutLine: {'line': b'-- Up-to-date: /home/piusr/92032_CAN/RosMsg/install/rosmsg/share/rosmsg/environment/ament_prefix_path.dsv\n'}
+[0.878327] (rosmsg) StdoutLine: {'line': b'-- Up-to-date: /home/piusr/92032_CAN/RosMsg/install/rosmsg/share/rosmsg/environment/path.sh\n'}
+[0.878407] (rosmsg) StdoutLine: {'line': b'-- Up-to-date: /home/piusr/92032_CAN/RosMsg/install/rosmsg/share/rosmsg/environment/path.dsv\n'}
+[0.878487] (rosmsg) StdoutLine: {'line': b'-- Up-to-date: /home/piusr/92032_CAN/RosMsg/install/rosmsg/share/rosmsg/local_setup.bash\n'}
+[0.878609] (rosmsg) StdoutLine: {'line': b'-- Up-to-date: /home/piusr/92032_CAN/RosMsg/install/rosmsg/share/rosmsg/local_setup.sh\n'}
+[0.878698] (rosmsg) StdoutLine: {'line': b'-- Up-to-date: /home/piusr/92032_CAN/RosMsg/install/rosmsg/share/rosmsg/local_setup.zsh\n'}
+[0.878779] (rosmsg) StdoutLine: {'line': b'-- Up-to-date: /home/piusr/92032_CAN/RosMsg/install/rosmsg/share/rosmsg/local_setup.dsv\n'}
+[0.878903] (rosmsg) StdoutLine: {'line': b'-- Installing: /home/piusr/92032_CAN/RosMsg/install/rosmsg/share/rosmsg/package.dsv\n'}
+[0.878989] (rosmsg) StdoutLine: {'line': b'-- Up-to-date: /home/piusr/92032_CAN/RosMsg/install/rosmsg/share/ament_index/resource_index/packages/rosmsg\n'}
+[0.879069] (rosmsg) StdoutLine: {'line': b'-- Up-to-date: /home/piusr/92032_CAN/RosMsg/install/rosmsg/share/rosmsg/cmake/export_rosmsg__rosidl_generator_cExport.cmake\n'}
+[0.879148] (rosmsg) StdoutLine: {'line': b'-- Up-to-date: /home/piusr/92032_CAN/RosMsg/install/rosmsg/share/rosmsg/cmake/export_rosmsg__rosidl_generator_cExport-noconfig.cmake\n'}
+[0.879229] (rosmsg) StdoutLine: {'line': b'-- Up-to-date: /home/piusr/92032_CAN/RosMsg/install/rosmsg/share/rosmsg/cmake/export_rosmsg__rosidl_typesupport_fastrtps_cExport.cmake\n'}
+[0.879308] (rosmsg) StdoutLine: {'line': b'-- Up-to-date: /home/piusr/92032_CAN/RosMsg/install/rosmsg/share/rosmsg/cmake/export_rosmsg__rosidl_typesupport_fastrtps_cExport-noconfig.cmake\n'}
+[0.879387] (rosmsg) StdoutLine: {'line': b'-- Up-to-date: /home/piusr/92032_CAN/RosMsg/install/rosmsg/share/rosmsg/cmake/export_rosmsg__rosidl_generator_cppExport.cmake\n'}
+[0.879513] (rosmsg) StdoutLine: {'line': b'-- Up-to-date: /home/piusr/92032_CAN/RosMsg/install/rosmsg/share/rosmsg/cmake/export_rosmsg__rosidl_typesupport_fastrtps_cppExport.cmake\n'}
+[0.879596] (rosmsg) StdoutLine: {'line': b'-- Up-to-date: /home/piusr/92032_CAN/RosMsg/install/rosmsg/share/rosmsg/cmake/export_rosmsg__rosidl_typesupport_fastrtps_cppExport-noconfig.cmake\n'}
+[0.879676] (rosmsg) StdoutLine: {'line': b'-- Up-to-date: /home/piusr/92032_CAN/RosMsg/install/rosmsg/share/rosmsg/cmake/rosmsg__rosidl_typesupport_introspection_cExport.cmake\n'}
+[0.879756] (rosmsg) StdoutLine: {'line': b'-- Up-to-date: /home/piusr/92032_CAN/RosMsg/install/rosmsg/share/rosmsg/cmake/rosmsg__rosidl_typesupport_introspection_cExport-noconfig.cmake\n'}
+[0.879878] (rosmsg) StdoutLine: {'line': b'-- Up-to-date: /home/piusr/92032_CAN/RosMsg/install/rosmsg/share/rosmsg/cmake/rosmsg__rosidl_typesupport_cExport.cmake\n'}
+[0.879968] (rosmsg) StdoutLine: {'line': b'-- Up-to-date: /home/piusr/92032_CAN/RosMsg/install/rosmsg/share/rosmsg/cmake/rosmsg__rosidl_typesupport_cExport-noconfig.cmake\n'}
+[0.880049] (rosmsg) StdoutLine: {'line': b'-- Up-to-date: /home/piusr/92032_CAN/RosMsg/install/rosmsg/share/rosmsg/cmake/rosmsg__rosidl_typesupport_introspection_cppExport.cmake\n'}
+[0.880128] (rosmsg) StdoutLine: {'line': b'-- Up-to-date: /home/piusr/92032_CAN/RosMsg/install/rosmsg/share/rosmsg/cmake/rosmsg__rosidl_typesupport_introspection_cppExport-noconfig.cmake\n'}
+[0.880207] (rosmsg) StdoutLine: {'line': b'-- Up-to-date: /home/piusr/92032_CAN/RosMsg/install/rosmsg/share/rosmsg/cmake/rosmsg__rosidl_typesupport_cppExport.cmake\n'}
+[0.880286] (rosmsg) StdoutLine: {'line': b'-- Up-to-date: /home/piusr/92032_CAN/RosMsg/install/rosmsg/share/rosmsg/cmake/rosmsg__rosidl_typesupport_cppExport-noconfig.cmake\n'}
+[0.880365] (rosmsg) StdoutLine: {'line': b'-- Up-to-date: /home/piusr/92032_CAN/RosMsg/install/rosmsg/share/rosmsg/cmake/export_rosmsg__rosidl_generator_pyExport.cmake\n'}
+[0.880501] (rosmsg) StdoutLine: {'line': b'-- Up-to-date: /home/piusr/92032_CAN/RosMsg/install/rosmsg/share/rosmsg/cmake/export_rosmsg__rosidl_generator_pyExport-noconfig.cmake\n'}
+[0.880578] (rosmsg) StdoutLine: {'line': b'-- Up-to-date: /home/piusr/92032_CAN/RosMsg/install/rosmsg/share/rosmsg/cmake/rosidl_cmake-extras.cmake\n'}
+[0.880651] (rosmsg) StdoutLine: {'line': b'-- Up-to-date: /home/piusr/92032_CAN/RosMsg/install/rosmsg/share/rosmsg/cmake/ament_cmake_export_include_directories-extras.cmake\n'}
+[0.880723] (rosmsg) StdoutLine: {'line': b'-- Up-to-date: /home/piusr/92032_CAN/RosMsg/install/rosmsg/share/rosmsg/cmake/ament_cmake_export_libraries-extras.cmake\n'}
+[0.880796] (rosmsg) StdoutLine: {'line': b'-- Up-to-date: /home/piusr/92032_CAN/RosMsg/install/rosmsg/share/rosmsg/cmake/ament_cmake_export_targets-extras.cmake\n'}
+[0.880887] (rosmsg) StdoutLine: {'line': b'-- Up-to-date: /home/piusr/92032_CAN/RosMsg/install/rosmsg/share/rosmsg/cmake/rosidl_cmake_export_typesupport_targets-extras.cmake\n'}
+[0.880963] (rosmsg) StdoutLine: {'line': b'-- Up-to-date: /home/piusr/92032_CAN/RosMsg/install/rosmsg/share/rosmsg/cmake/ament_cmake_export_dependencies-extras.cmake\n'}
+[0.881036] (rosmsg) StdoutLine: {'line': b'-- Up-to-date: /home/piusr/92032_CAN/RosMsg/install/rosmsg/share/rosmsg/cmake/rosidl_cmake_export_typesupport_libraries-extras.cmake\n'}
+[0.881108] (rosmsg) StdoutLine: {'line': b'-- Up-to-date: /home/piusr/92032_CAN/RosMsg/install/rosmsg/share/rosmsg/cmake/rosmsgConfig.cmake\n'}
+[0.881180] (rosmsg) StdoutLine: {'line': b'-- Up-to-date: /home/piusr/92032_CAN/RosMsg/install/rosmsg/share/rosmsg/cmake/rosmsgConfig-version.cmake\n'}
+[0.881258] (rosmsg) StdoutLine: {'line': b'-- Up-to-date: /home/piusr/92032_CAN/RosMsg/install/rosmsg/share/rosmsg/package.xml\n'}
+[0.883588] (rosmsg) CommandEnded: {'returncode': 0}
+[0.902597] (-) TimerEvent: {}
+[0.919917] (rosmsg) JobEnded: {'identifier': 'rosmsg', 'rc': 0}
+[0.920798] (-) EventReactorShutdown: {}

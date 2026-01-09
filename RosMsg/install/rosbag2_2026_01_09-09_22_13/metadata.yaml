@@ -1,0 +1,66 @@
+rosbag2_bagfile_information:
+  version: 9
+  storage_identifier: mcap
+  duration:
+    nanoseconds: 60080265488
+  starting_time:
+    nanoseconds_since_epoch: 1767921733271485988
+  message_count: 24033
+  topics_with_message_count:
+    - topic_metadata:
+        name: /RosCanMotorTgt
+        type: rosmsg/msg/RosCanMotorTgt
+        serialization_format: cdr
+        offered_qos_profiles:
+          - history: unknown
+            depth: 0
+            reliability: reliable
+            durability: volatile
+            deadline:
+              sec: 9223372036
+              nsec: 854775807
+            lifespan:
+              sec: 9223372036
+              nsec: 854775807
+            liveliness: automatic
+            liveliness_lease_duration:
+              sec: 9223372036
+              nsec: 854775807
+            avoid_ros_namespace_conventions: false
+        type_description_hash: RIHS01_faaccb42cb2b92aa3cd3a50345e40d5d10659015fd6722d4992e52909745b109
+      message_count: 12016
+    - topic_metadata:
+        name: /RosCanMotorSta
+        type: rosmsg/msg/RosCanMotorSta
+        serialization_format: cdr
+        offered_qos_profiles:
+          - history: unknown
+            depth: 0
+            reliability: reliable
+            durability: volatile
+            deadline:
+              sec: 9223372036
+              nsec: 854775807
+            lifespan:
+              sec: 9223372036
+              nsec: 854775807
+            liveliness: automatic
+            liveliness_lease_duration:
+              sec: 9223372036
+              nsec: 854775807
+            avoid_ros_namespace_conventions: false
+        type_description_hash: RIHS01_3263a07e1251d783c921170d259f3c611e9bde24e94a9d942f929a890ee3ebb9
+      message_count: 12017
+  compression_format: ""
+  compression_mode: ""
+  relative_file_paths:
+    - rosbag2_2026_01_09-09_22_13_0.mcap
+  files:
+    - path: rosbag2_2026_01_09-09_22_13_0.mcap
+      starting_time:
+        nanoseconds_since_epoch: 1767921733271485988
+      duration:
+        nanoseconds: 60080265488
+      message_count: 24033
+  custom_data: ~
+  ros_distro: jazzy

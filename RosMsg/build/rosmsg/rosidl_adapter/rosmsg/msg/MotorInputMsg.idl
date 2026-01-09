@@ -1,0 +1,20 @@
+// generated from rosidl_adapter/resource/msg.idl.em
+// with input from rosmsg/msg/MotorInputMsg.msg
+// generated code does not contain a copyright notice
+
+
+module rosmsg {
+  module msg {
+    struct MotorInputMsg {
+      float tgt_pos;
+
+      float tgt_torq;
+
+      float tgt_speed;
+
+      float tgt_kd;
+
+      float tgt_kp;
+    };
+  };
+};
